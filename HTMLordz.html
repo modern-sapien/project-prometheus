@@ -44,44 +44,73 @@
 </div>
 </nav>
 
-
 <main class= "terminal">
     <div class="container">
          <div class = "row">
             <div class = "col-12-sm m-auto text-center mt-4">
-                <h1 class="mt-3">GIT: THE BA$IC$</h1>
+                <h1 class="mt-3">HTMLordz</h1>
             </div>
           </div>
 
         <div class = "row border">
             <div class = "col-9-sm m-auto text-left mt-2 pl-2 terminal fixedWidth border-white">
-                <h2 class="terminalP">in your terminal...</h2>
-                    <p class="terminalP">Step 1. Do you know how to copy SSH keys? <br>
-                        <span style="color: yellow"><b>if</b></span> no, google that business
+                <h2 class="terminalP">Here's the Deal</h2>
+                    <p class="terminalP">HTML, is pretty straight forward, I think, but let's totally find out 
+                      together. This will be some super rough, scatter shots of what we're working with when we talk about
+                      HTML. <br>
+                       </p>
+                    <p class="terminalP"><b>HTML?</b><br>
+                        HYPER TEXT MARKUP LANGUAGE <br>
+                        If the word HYPER doesn't tell you it's a party, I don't know what will. 
                     </p>
-                    <p class="terminalP"><b>git clone</b> ______ <br>
-                        whereever you are in a repo, paste an SSH directory link and press enter
-                        that directory will then live there forever, or until you decide to delete it in shame
+                    <!-- doctype declaration  -->
+                    <p class="terminalP"><b> &lt;!DOCTYPE html&gt;</b><br>
+                        You always declare this at the top of your page to let the internet know you mean business.
+                        If you haven't already, download HTML Boilplate in Visual Studio Code, make sure it is enabled.
+                        <br>
+                        When you're starting a new HTML doc.. just write HTML5, and scroll down to boiler plate & you're done.
                     </p>
-                    <p class="terminalP"><b>mkdir</b> ______ <br>
-                        creates a folder, wherever you are currently in the directory
+                    <!-- head   -->
+                    <p class="terminalP"><b>&lt;head&gt;</b><br>
+                        This is where you delcare things and link CSS & declare things like your title. 
+                        <br> remember that your CSS will read from first to last, so if you're doing custom CSS in addition
+                        to bootstrap, put your CSS link underneath.
                     </p>
-                    <p class="terminalP"><b>touch</b> _____ <br>
-                        creates a file name, whereever you currently are in the directory
+                    <!-- title  -->
+                    <p class="terminalP"><b>&lt;Title&gt;</b> <br>
+                        You gotta open and close this element, within it you declare what your page is about, This is what users see in tabs on top of their window.
                     </p>
-                    <p class="terminalP"><b>git status</b> _____ <br>
-                        this will let you know if you're working in a directory that has things either in the github, super cloud
-                        or if you have things you need to modify I.E. you've been pushing characters or deleting things & the files
-                        are now out of date. YES THIS WAS A REALLY LONG SENTENCE. <br>
-                        Things will be appear in <span style="red">COLOR</span>.
+                    <!-- body  -->
+                    <p class="terminalP"><b>&lt;body&gt;</b><br>
+                    The body is where your content exists. You don't put cute photos of kitties in the HEAD section, or between the closing
+                    of body & html. You put those kitties in the body. 
                     </p>
-                    <p class="terminalP"><b>git pull</b>
-                      THINGS change, git pull, makes sure that your current project is up to date with whatever was last pushed from
-                      others in the REPO. <span style="background: yellow; color: black">USE THIS BEFORE YOU PULL</span>
-                  </p>
-                    <p class="terminalP"><b>git add .</b><br>
-                        Is exactly what it sounds like, so you've been breaking stuff for a few hours in javascript and it finally works. RUN
-                        git add, and begin the process of uploading your beautiful code to the cloudz.
+                    <!-- semantic HTML  -->
+                    <p class="terminalP"><b>SEMANTIC HTML</b><br>
+                      Here is an unordered list of semantic elements in HTML, all semantic HTML means is that you exist in a world of divs, and sometimes
+                      having things called something other than &lt; div = "container sm-12 mt-2 mr-2 pd-1 bg-dark&gt; will be helpful for you as a person
+                      and make your webpages more easy to navigate for folks using screenreaders & improve SEO.
+                      <div class= "row">
+                        <div class= "col-4-md mx-5">
+                      <ul> Semantic HTML Element list
+                          <li>&lt;article&gt;</li>
+                          <li>&lt;aside&gt;</li>
+                          <li>&lt;details&gt;</li>
+                          <li>&lt;figcaption&gt;</li>
+                          <li>&lt;figure&gt;</li>
+                          <li>&lt;footer&gt;</li>
+                          <li>&lt;main&gt;</li>
+                          <li>&lt;nav&gt;</li>
+                        </ul>
+                      </div>
+                      <div class= "col-4-md mx-5">
+                        <img src="./images/semanticIMG.gif" alt="webpage organized by semantic elements">
+                        </div>
+                        <div class= "col-2-sm">
+                          <h2>&lt;- You can't actually<br>
+                             build that in HTML <br> you need CSS for this </h2>
+                          </div>
+                      </div>
                     </p>
                     <p class="terminalP"><b>git commit -m "</b> _____ <br>"
                         This is what you do, when you want to be a <span style="background: yellow; color:black">GOOD CODER</span>
