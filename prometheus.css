@@ -1,0 +1,58 @@
+body {
+    position: relative;
+}
+
+main {
+    height: calc(100% - 28px);
+
+}
+
+p {
+    font-size: 18px;
+}
+
+/* .navbar {
+    background-color: black !important;
+    color: whitesmoke !important;
+}
+
+.navitem {
+    color: whitesmoke !important;
+} */
+
+.fixedWidth{
+    max-width: 50 !important;
+}
+
+.btn-holder {
+    max-width: 50%;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: black;
+}
+
+
+
+.myFooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 28px;
+    text-align: center;
+}
+
+#bootText {
+    color: red;
+}
+
+.terminal {
+    background: black;
+    color: white;
+}
+
+.terminalP {
+    color: white;
+}
