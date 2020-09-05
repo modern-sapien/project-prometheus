@@ -51,6 +51,7 @@ p {
 .terminal {
     background: black;
     color: white;
+    
 }
 
 .terminalP {
@@ -59,4 +60,11 @@ p {
 
 .reverseTerminalP {
     color: black;
+}
+
+.terminalWindowBorder{
+    background: rgb(36, 36, 255);
+    width: 100%;
+    height: 20px;
+    
 }
