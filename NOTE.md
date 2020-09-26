@@ -546,6 +546,21 @@ Exports/Imports
     Exports are always an object.
     Imports
 
+### inquirer
+    inquirer is a package that allows us to obtain input from a user in the command line that we can then use to build with like we would with prompts/confirms, etc.
+
+    We use inquirer by requiring it in our Node.js file.
+
+    -example
+    inquirer.prompt([
+        {   name: "searchTerm",
+            type: "input",
+            message: "What kind of joke would you like to hear?"}
+    ]).then(({searchTerm}) => {
+        console.log(searchTerm)
+    })
+        logs banana
+
 ## ==============
 ## ES6 ============
 ## ==============
@@ -602,8 +617,9 @@ Functional Loops
 
 ##  .map()  lesson 09-activity 22
     Map lets you loop over an array and modify the elements inside
-    This will return a new array, but will also impact the previous array.
+    This will return a new array, but may also may impact the previous array, in the case of adding values to an array of objects.
 
+    -video example - 9.24 video 1/8
     -example lesson 9, activity 17
     var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 

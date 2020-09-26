@@ -125,10 +125,26 @@ Here is a list of helpful links regarding videos on BCS
 
 
 ## 9.24 Constructors 1/8
-[readMe.generator](https://zoom.us/rec/play/5XhgGgc3lcDuoxWSzwqavdprOlxHJF6UyxU2AHymRp7esdGENOl9aissjY2fuiPt1tdt9GQI_Sxoy1FS.TSw4X6hkjr4MX65r?startTime=1600953549000&_x_zm_rtaid=60yHbV8rQ12dKMRGbBWfgg.1601087349420.ddc5fc8c31f8440fc39b5646582a929f&_x_zm_rhtaid=31)
+[Array & Inquirer](https://zoom.us/rec/play/5XhgGgc3lcDuoxWSzwqavdprOlxHJF6UyxU2AHymRp7esdGENOl9aissjY2fuiPt1tdt9GQI_Sxoy1FS.TSw4X6hkjr4MX65r?startTime=1600953549000&_x_zm_rtaid=60yHbV8rQ12dKMRGbBWfgg.1601087349420.ddc5fc8c31f8440fc39b5646582a929f&_x_zm_rhtaid=31)
 
 42 minute session 
     covers: 
     *   explanation of where we are in the class currently & ES6 came to be
-    *   @5 minutes, begins to build an array of objects to use methods; filter, map, for each
-    *  @20 minutes, uses spread operator with For Loop
+    *   @5 minutes, begins to build an array of objects to use method; filter, map
+    *   @20 minutes, uses spread operator with For Loop & MAP to demonstrate you can use either
+    *   @ 30 minutes begin demo of Inquirer/Axios call
+    *   @ 37 minutes, whatever you give the name of an inquirer.prompt object will be what the users answer is stored under. So the value of the object is the KEY.
+
+## 9.24 Constructors 2/8
+[Mini-Project](https://zoom.us/rec/play/ZwutH7Ghi_u3VEl_BLRAJS2bD0NQaMYEW6Z0hlaW6u9gb6HRPWsOHJnRN9Y9O9MqdJu024oKbSxEiXkD.OWD84OnRRV2KVkrX?startTime=1600956183000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
+
+10 minute session 
+    covers: 
+    *   Lesson 9 Activity 40
+
+## 9.24 Constructors 3/8
+[Mini-Project](https://zoom.us/rec/play/ZwutH7Ghi_u3VEl_BLRAJS2bD0NQaMYEW6Z0hlaW6u9gb6HRPWsOHJnRN9Y9O9MqdJu024oKbSxEiXkD.OWD84OnRRV2KVkrX?startTime=1600956183000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
+
+10 minute session 
+    covers: 
+    *   Lesson 9 Activity 40
