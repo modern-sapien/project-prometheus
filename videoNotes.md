@@ -195,3 +195,6 @@ Here is a list of helpful links regarding videos on BCS
     *   Unit 9 Activity 4 workthrough
     *   Errors are your friend, READ THEM
     *   @ 10 minutes, introduces Unit 9 Activity 5 demo
+    *   @ 16 minutes, mentions hasOwnProperty() which is a built in method on each object.
+    *   @ 18 minutes, talks about why we would use prototypes versus adding more to a constructor
+    *   @ 20 minutes, introduces class activity UNIT 10 Activity 6

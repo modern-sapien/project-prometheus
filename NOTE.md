@@ -654,6 +654,8 @@ Functional Loops
     const string = "How are you doing today?
     let res = string.split(" ")
 
+## hasOwnProperty()
+    innate method on every object where you can check in true or false if an object has a certain property.
 
 ## waitFor(seconds, cb)
 
@@ -830,7 +832,24 @@ Constructors are like blueprints.
 
 ## Prototypes
 Objects, arrays & primitives are all prototypes, they are hidden but they are are always there. 
-Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy.
+Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want an value of the object to add noise to our code, using a prototype to hide it would be effective.
+
+    -Example    Unit 10 Activity 5
+    function Movie(title, releaseYear)  {
+        this.title = title;
+        this.releaseYear = releaseYear;
+    }
+
+    Movie.prototype.logInfo = function()    {
+        console.log(`${this.title} was released in ${this.releaseYear}`);
+    };
+
+    const theShining = new Movie("The Shining, 1980)
+    theShining.logInfo();
+    console.log(theShining)                 << this does not SHOW the prototype method
+    console.log(theShining.hasOwnProperty('title))                          << logs true
+    console.log(theShining.hasOwnPoperty(`logInfo))                         << logs false
+    console.log(Movie.prototype.hasOwnProperty(`logInfo`))                  << logs true
 
 
 ### =================
