@@ -14,7 +14,7 @@ Here is a list of helpful links regarding videos on BCS
     *   git ignore @ 39 minutes
 
 ## 9.23 Asynchronous JavaScript 2/11
-[readMe.generator](https://zoom.us/rec/play/gsw8voH1X3mq9BhcIs4qA1aMUa8uHDgkxBr79f-at4zk68s896uGj3BNjwgEs6zQUUlCp6Vzk7jvFdwA.ykIkXfeTdBvugQj9?startTime=1600869885000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
+[Arrow Functions](https://zoom.us/rec/play/gsw8voH1X3mq9BhcIs4qA1aMUa8uHDgkxBr79f-at4zk68s896uGj3BNjwgEs6zQUUlCp6Vzk7jvFdwA.ykIkXfeTdBvugQj9?startTime=1600869885000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
 
 20 minute session 
     covers: 
@@ -22,7 +22,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 4 minutes * Arrow Functions Demo & Lesson 9 Activity 16
 
 ## 9.23 Asynchronous JavaScript 3/11
-[readMe.generator](https://zoom.us/rec/play/DfyllPpauHHDuAHW-oU0LB_-xEVWnz8ea7q5uOBn9j_CU6bMzcbQGRH7hzpjhnfNX2_eKZM7bVJu-SGa.UDXlIYtdea6FSWg_?startTime=1600871480000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
+[LET & CONST](https://zoom.us/rec/play/DfyllPpauHHDuAHW-oU0LB_-xEVWnz8ea7q5uOBn9j_CU6bMzcbQGRH7hzpjhnfNX2_eKZM7bVJu-SGa.UDXlIYtdea6FSWg_?startTime=1600871480000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
 
 22 minute session 
     covers: 
@@ -97,7 +97,7 @@ Here is a list of helpful links regarding videos on BCS
 
 
 ## 9.23 Asynchronous JavaScript 10/11
-[readMe.generator](https://zoom.us/rec/play/7F8qhhfbjMm94Cee1FtCINmEM3bhyv9XjhneLNwaa0wvNzYT9ZfBV13VFmws3D9NOkcvKl1SV-PGJpqY.lj8tSMTspu08u22S?startTime=1600883505000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
+[promises](https://zoom.us/rec/play/7F8qhhfbjMm94Cee1FtCINmEM3bhyv9XjhneLNwaa0wvNzYT9ZfBV13VFmws3D9NOkcvKl1SV-PGJpqY.lj8tSMTspu08u22S?startTime=1600883505000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
 
 40 minute session 
     covers: 
@@ -113,7 +113,19 @@ Here is a list of helpful links regarding videos on BCS
 
 
 ## 9.23 Asynchronous JavaScript 11/11
-[readMe.generator](https://zoom.us/rec/play/hRZ_XEdwMo3QBKY8_Fj1xeoAdzXIfF3Nnd6gPb9ane9BS3LiJFH0EahiA0mKY9eMHGrgJvyAHd4bYQkp.f7UYMm8ORCw5ow1v?startTime=1600886001000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
+[string interpolation](https://zoom.us/rec/play/hRZ_XEdwMo3QBKY8_Fj1xeoAdzXIfF3Nnd6gPb9ane9BS3LiJFH0EahiA0mKY9eMHGrgJvyAHd4bYQkp.f7UYMm8ORCw5ow1v?startTime=1600886001000&_x_zm_rtaid=TNUEr2j-TrWgwXZyQitWlw.1601080112117.14db76c1c83d598555c6f16aa0e6edc3&_x_zm_rhtaid=505)
+
+26 minute session 
+    covers: 
+    *   git ignore @ 8 minutes
+    *   string interpolation 10 minutes 30 seconds
+    *   importing & exporting
+    *   mainly questions regarding homework - readme generator
+    *   if conditional for displaying license text @ 23 minutes
+
+
+## 9.24 Constructors 1/8
+[readMe.generator](https://zoom.us/rec/play/5XhgGgc3lcDuoxWSzwqavdprOlxHJF6UyxU2AHymRp7esdGENOl9aissjY2fuiPt1tdt9GQI_Sxoy1FS.TSw4X6hkjr4MX65r?startTime=1600953549000&_x_zm_rtaid=60yHbV8rQ12dKMRGbBWfgg.1601087349420.ddc5fc8c31f8440fc39b5646582a929f&_x_zm_rhtaid=315)
 
 26 minute session 
     covers: 
