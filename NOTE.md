@@ -808,11 +808,13 @@ Constructors are like blueprints.
     * when we define a constructor function, we [capitalize] the first letter.
     * limitless amount of parameters we can add.
     * the resulting object that comes out of a constructor is an instance.
+    * You can not call methods off of the constructor, you have to call it off of the instance.
 
     If you are building constructors and you want to chain methods
     Lesson 10, Activity 8
     return new Arithmetic(newNumber);
 
+    Lesson 10 Activity 2
     -EXAMPLE
     function Animal(raining, noise) {
     this.raining = raining;
@@ -827,7 +829,9 @@ Constructors are like blueprints.
     const dogs = new Animal(true, "Woof!");
 
 ## Prototypes
-Are always there but are hidden; objects, arrays & primitives are all prototypes.
+Objects, arrays & primitives are all prototypes, they are hidden but they are are always there. 
+Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy.
+
 
 ### =================
 ## TDD - Test Driven Development

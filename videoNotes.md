@@ -166,11 +166,32 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 4 minutes - difference between data-types objects & primitives
     *   @ 7 minutes introduces Unit 10 Activity 1
 
-## 9.24 Constructors 4/8
+## 9.24 Constructors 5/8
 [Constructor Activity](https://zoom.us/rec/play/9UkWm7zW9IDUIqsYUeXrsBEtABaDjLAb9q__AuIm36Up-vAd5zPBww5MQUMnVOT8JWf6-zqv1iWtgBtY.vBcTBUz5I35XQvs6?startTime=1600966145000&_x_zm_rtaid=esAP_LvWQ-W1c32tZFMiJw.1601130860235.5563e3d8f63b7aae2daad36c63e30996&_x_zm_rhtaid=248)
 
-8 minute session 
+14 minute session 
     covers: 
     *   Working through Unit 10 Activity 1
     *   @ 3 minutes references Unit 03 Activity 8, confirm sushi versus confirm sushi === true
-    *   @ 7 minutes introduces Unit 10 Activity 1
+    *   @ 7 minutes demos Unit 10 Activity 2 / CONSTRUCTORS
+    *   @ 11 minutes introduces Unit 10 Activity 3 - minibank exercise
+
+
+## 9.24 Constructors 6/8
+[Mini Bank Activity](https://zoom.us/rec/play/lk_cpEGR6XU13apGCdq9QICdFUTcjzxX1symSwB2Pd5NE7olF-UFjTQpuEANud4MZh4DLSKafOX80Whk.0jC7mLEPuhQ26E3D?startTime=1600967977000&_x_zm_rtaid=esAP_LvWQ-W1c32tZFMiJw.1601130860235.5563e3d8f63b7aae2daad36c63e30996&_x_zm_rhtaid=248)
+
+14 minute session 
+    covers: 
+    *   Getters & Setters
+    *   Unit 10 Activity 3 walkthrough
+    *   @9 minutes, you cannot call methods off of a constructor, you must use the instance.
+    *   @ 13 minutes introduces Unit 10 Activity 4 - class activity
+
+## 9.24 Constructors 7/8
+[Error Driven Development](https://zoom.us/rec/play/A2TyF6GRrDVdgk3KT6lCmPEn5niOOHtgG7DWUx_vDPwMLqBRakW2zLz1aUzzu01X94EcDuqOhS0tFNB0.WwRJOkk06u2ZhzIf?startTime=1600969601000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+
+21 minute session 
+    covers: 
+    *   Unit 9 Activity 4 workthrough
+    *   Errors are your friend, READ THEM
+    *   @ 10 minutes, introduces Unit 9 Activity 5 demo
