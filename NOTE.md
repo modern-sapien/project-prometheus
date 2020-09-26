@@ -391,6 +391,10 @@ thisThing.attr("class", ".classOne, .classTwo, .classThree);
 thingThing.text(anotherThing[i]) <<< TEXT DOES NOT NEED QUOTES if a value
 
 ## Anonymous Callback Functions & Eventlistening
+Callback functions answer, what do you want me to do next?
+They take a callback function as an argument.
+They all take time to complete which is why asynchronicity becomes something you have to navigate.
+
 BODY has h3 class="click-me"
 
 $(document).ready(function() {             << make the document ready for event listeners

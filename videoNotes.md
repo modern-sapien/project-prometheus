@@ -207,3 +207,11 @@ Here is a list of helpful links regarding videos on BCS
     *   UNIT 10 Activity 6 walkthrough
     *   Great walkthrough for understanding Constructors bette, but does not include any prototyping.
 
+## 9.25 Constructors 1/10
+[Constructor Activity Walkthrough](https://zoom.us/rec/play/lDNUE_WMyg49UzSzreQ1YqWKbtFqDT0ugtFIAeW-KV5EBHy-tzfKWMK0EBO2y73m4PzrHxQA98u_Od5X.9CVVxvsQBAl2eJJe?startTime=1601039894000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+
+42 minute session 
+    covers: 
+    *   Reviewing constructors // callback functions
+    *   @ 10 minutes solid explanation of callback functions
+
