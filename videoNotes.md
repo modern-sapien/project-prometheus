@@ -188,7 +188,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 13 minutes introduces Unit 10 Activity 4 - class activity
 
 ## 9.24 Constructors 7/8
-[Error Driven Development](https://zoom.us/rec/play/A2TyF6GRrDVdgk3KT6lCmPEn5niOOHtgG7DWUx_vDPwMLqBRakW2zLz1aUzzu01X94EcDuqOhS0tFNB0.WwRJOkk06u2ZhzIf?startTime=1600969601000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+[EDD Walkthrough & Constructors / Prototypes](https://zoom.us/rec/play/A2TyF6GRrDVdgk3KT6lCmPEn5niOOHtgG7DWUx_vDPwMLqBRakW2zLz1aUzzu01X94EcDuqOhS0tFNB0.WwRJOkk06u2ZhzIf?startTime=1600969601000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
 
 21 minute session 
     covers: 
@@ -198,3 +198,10 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 16 minutes, mentions hasOwnProperty() which is a built in method on each object.
     *   @ 18 minutes, talks about why we would use prototypes versus adding more to a constructor
     *   @ 20 minutes, introduces class activity UNIT 10 Activity 6
+
+## 9.24 Constructors 7/8
+[](https://zoom.us/rec/play/97I1MzIK_kHkvMJffsCBk64fiyM7JiqNGBLbuVmlR-gicgoKkcM1bm1Uq5-onuYYh1VcUTmGURpH4wQ.8RcIeZ5ojmNi_klZ?startTime=1600972205000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+
+18 minute session 
+    covers: 
+    *   UNIT 10 Activity 6 walkthrough
