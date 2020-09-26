@@ -560,6 +560,21 @@ Exports/Imports
         console.log(searchTerm)
     })
         logs banana
+### utils
+    Video 9.24 3/8
+    requiring util to promisify functions
+
+    -example
+    const writeFileAsync = util.promisify(fs.writeFile)
+
+    writeFileAsync("index.html", htmlString).then(()=>  {
+        console.log("Successfully wrote file.");
+    }).catch(err => {
+        console.log(err)
+    })
+    })
+
+    You still have to pass in the same arguments as a previous function, but instead of a callback function you chain .then() & .catch().
 
 ## ==============
 ## ES6 ============
@@ -769,29 +784,14 @@ Lesson 9 Activity 34
         );}
     } etc. etc. etc.
 
-
-## unorganized
-Axios makes API calls within a node and reduces CORS issue
-
-Promises
-If I add .then, I must add .catch (will prevent your node code from breaking)
-    -EXAMPLE
-    .catch((err) => {
-        console.log(err)
-    });
-
-Util converts call back functions to promise functions, when you use promises you add .catch
-
-util.promisfy() makes things into a promise
-
-promise.all()
-
-## Interview Question
-How do you get out of call back hell?
-Promises
-
 ## OOP object oriented programming
 Is a paradigm or pattern of programming centered around objects
+
+    data-types objects:
+        arrays, date, Math, functions
+    
+    primitive types are NOT object:
+        boolean, null, undefined, number, string, symbol
 
 How can objects work together to solve problems?
     * encapsulation

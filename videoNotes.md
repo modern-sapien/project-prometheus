@@ -143,7 +143,7 @@ Here is a list of helpful links regarding videos on BCS
     *   Unit 9 Activity 40
 
 ## 9.24 Constructors 3/8
-[Mini-Project](https://zoom.us/rec/play/9XvEKFoS_Z-mOMCLIfSVEk6OvMqzh0WAYVQCPaXDlV1X4HLgDlz8RpK_BPxN3WWb1zA_vTURIg95w2w.iqULYLIuexDDy1iH?startTime=1600960032000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
+[Mini-Project Walkthrough](https://zoom.us/rec/play/9XvEKFoS_Z-mOMCLIfSVEk6OvMqzh0WAYVQCPaXDlV1X4HLgDlz8RpK_BPxN3WWb1zA_vTURIg95w2w.iqULYLIuexDDy1iH?startTime=1600960032000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
 
 42 minute session 
     covers: 
@@ -153,3 +153,24 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 12 minutes injecting HTML into a function with template literals 
     *   @ 13 minutes fs.writeFile()
     *   @ 17 minutes using a function to clean up code with template literals
+    *   @ 20 minute using package UTIL to promisify
+    *   @ 31 minutes promise.all()
+    *   @ 34 minutes abstracting a function out and importing
+
+## 9.24 Constructors 4/8
+[What is programming?](https://zoom.us/rec/play/hVl-BHo8mB_WAfRB4y6IpVLlVRavyaWLZEbnPqla3OraJ8pxfqn4KveSjOwy4zAgaZ7Rf3yGo7a4BF_u.xEQCRkr_sfOczJ0m?startTime=1600965068000&_x_zm_rtaid=esAP_LvWQ-W1c32tZFMiJw.1601130860235.5563e3d8f63b7aae2daad36c63e30996&_x_zm_rhtaid=248)
+
+8 minute session 
+    covers: 
+    *   What is programming? Problem Solving
+    *   @ 4 minutes - difference between data-types objects & primitives
+    *   @ 7 minutes introduces Unit 10 Activity 1
+
+## 9.24 Constructors 4/8
+[Constructor Activity](https://zoom.us/rec/play/9UkWm7zW9IDUIqsYUeXrsBEtABaDjLAb9q__AuIm36Up-vAd5zPBww5MQUMnVOT8JWf6-zqv1iWtgBtY.vBcTBUz5I35XQvs6?startTime=1600966145000&_x_zm_rtaid=esAP_LvWQ-W1c32tZFMiJw.1601130860235.5563e3d8f63b7aae2daad36c63e30996&_x_zm_rhtaid=248)
+
+8 minute session 
+    covers: 
+    *   Working through Unit 10 Activity 1
+    *   @ 3 minutes references Unit 03 Activity 8, confirm sushi versus confirm sushi === true
+    *   @ 7 minutes introduces Unit 10 Activity 1
