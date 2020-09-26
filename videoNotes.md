@@ -199,9 +199,11 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 18 minutes, talks about why we would use prototypes versus adding more to a constructor
     *   @ 20 minutes, introduces class activity UNIT 10 Activity 6
 
-## 9.24 Constructors 7/8
-[](https://zoom.us/rec/play/97I1MzIK_kHkvMJffsCBk64fiyM7JiqNGBLbuVmlR-gicgoKkcM1bm1Uq5-onuYYh1VcUTmGURpH4wQ.8RcIeZ5ojmNi_klZ?startTime=1600972205000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+## 9.24 Constructors 8/8
+[Constructor Activity Walkthrough](https://zoom.us/rec/play/97I1MzIK_kHkvMJffsCBk64fiyM7JiqNGBLbuVmlR-gicgoKkcM1bm1Uq5-onuYYh1VcUTmGURpH4wQ.8RcIeZ5ojmNi_klZ?startTime=1600972205000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
 
 18 minute session 
     covers: 
     *   UNIT 10 Activity 6 walkthrough
+    *   Great walkthrough for understanding Constructors bette, but does not include any prototyping.
+
