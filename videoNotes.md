@@ -125,12 +125,10 @@ Here is a list of helpful links regarding videos on BCS
 
 
 ## 9.24 Constructors 1/8
-[readMe.generator](https://zoom.us/rec/play/5XhgGgc3lcDuoxWSzwqavdprOlxHJF6UyxU2AHymRp7esdGENOl9aissjY2fuiPt1tdt9GQI_Sxoy1FS.TSw4X6hkjr4MX65r?startTime=1600953549000&_x_zm_rtaid=60yHbV8rQ12dKMRGbBWfgg.1601087349420.ddc5fc8c31f8440fc39b5646582a929f&_x_zm_rhtaid=315)
+[readMe.generator](https://zoom.us/rec/play/5XhgGgc3lcDuoxWSzwqavdprOlxHJF6UyxU2AHymRp7esdGENOl9aissjY2fuiPt1tdt9GQI_Sxoy1FS.TSw4X6hkjr4MX65r?startTime=1600953549000&_x_zm_rtaid=60yHbV8rQ12dKMRGbBWfgg.1601087349420.ddc5fc8c31f8440fc39b5646582a929f&_x_zm_rhtaid=31)
 
-26 minute session 
+42 minute session 
     covers: 
-    *   git ignore @ 8 minutes
-    *   string interpolation 10 minutes 30 seconds
-    *   importing & exporting
-    *   mainly questions regarding homework - readme generator
-    *   if conditional for displaying license text @ 23 minutes
+    *   explanation of where we are in the class currently & ES6 came to be
+    *   @5 minutes, begins to build an array of objects to use methods; filter, map, for each
+    *  @20 minutes, uses spread operator with For Loop

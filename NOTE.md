@@ -602,6 +602,7 @@ Functional Loops
 
 ##  .map()  lesson 09-activity 22
     Map lets you loop over an array and modify the elements inside
+    This will return a new array, but will also impact the previous array.
 
     -example lesson 9, activity 17
     var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
