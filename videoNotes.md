@@ -140,11 +140,16 @@ Here is a list of helpful links regarding videos on BCS
 
 10 minute session 
     covers: 
-    *   Lesson 9 Activity 40
+    *   Unit 9 Activity 40
 
 ## 9.24 Constructors 3/8
-[Mini-Project](https://zoom.us/rec/play/ZwutH7Ghi_u3VEl_BLRAJS2bD0NQaMYEW6Z0hlaW6u9gb6HRPWsOHJnRN9Y9O9MqdJu024oKbSxEiXkD.OWD84OnRRV2KVkrX?startTime=1600956183000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
+[Mini-Project](https://zoom.us/rec/play/9XvEKFoS_Z-mOMCLIfSVEk6OvMqzh0WAYVQCPaXDlV1X4HLgDlz8RpK_BPxN3WWb1zA_vTURIg95w2w.iqULYLIuexDDy1iH?startTime=1600960032000&_x_zm_rtaid=M_RNlu8HRHSWodFIvvJctg.1601123626600.c5c7e06c898a5a36784c1c328bcfd205&_x_zm_rhtaid=517)
 
-10 minute session 
+42 minute session 
     covers: 
-    *   Lesson 9 Activity 40
+    *   Reviews outcome of unit 9 Activity 40
+    *   Psuedo code steps of mini-project
+    *   @ 9 minutes Inquirer steps 
+    *   @ 12 minutes injecting HTML into a function with template literals 
+    *   @ 13 minutes fs.writeFile()
+    *   @ 17 minutes using a function to clean up code with template literals
