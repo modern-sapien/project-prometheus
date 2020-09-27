@@ -208,10 +208,32 @@ Here is a list of helpful links regarding videos on BCS
     *   Great walkthrough for understanding Constructors bette, but does not include any prototyping.
 
 ## 9.25 Constructors 1/10
-[Constructor Activity Walkthrough](https://zoom.us/rec/play/lDNUE_WMyg49UzSzreQ1YqWKbtFqDT0ugtFIAeW-KV5EBHy-tzfKWMK0EBO2y73m4PzrHxQA98u_Od5X.9CVVxvsQBAl2eJJe?startTime=1601039894000&_x_zm_rtaid=_eaTmNl2QAG9eIl9ctvTpA.1601138311136.3b7aa951fc54113fa2fdd5714e5dfb74&_x_zm_rhtaid=467)
+[Constructors, Call Back Functions, Promises & Asyncs/Awaits oh my!](https://zoom.us/rec/play/rmlXCdGq3TxTVRBqn6Dk2KAuFo1go8wIKvb-kacOPdUS_3FlJme4cOc38qQ7XXXk-wFr9t2hJkgvOWXK.VGj7oqGc1qwvSFrX?startTime=1601039894000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
 
 42 minute session 
     covers: 
     *   Reviewing constructors // callback functions
     *   @ 10 minutes solid explanation of callback functions
+    *   @ 25 minutes talks about using promises to clean things up
+    *   @ 27 minutes brings in Util to promisify fs.readFile & fs.writeFile
+    *   @ 30 minutes incorporates Async / Await
 
+## 9.25 Testing with Jest 1/10
+[Week Re-Cap](https://zoom.us/rec/play/pBVnMPOgwaVqe8YimHVvjKZ-y_XeXxaDkoM7kC4y6m38mSUuxEtXh6rLuB0M6kxYn2ZdWYlRnp3R2mBy.KWe5E01bfHa3FXKL?startTime=1601042628000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
+
+14 minute session 
+    covers: 
+    *   Quick review; CLI, ES6, Object Oriented Programming, 
+    *   CLI stands for command line interface
+    *   @ 10 minutes introduces activity Unit 10 Activity 7, tamogotchi activity
+
+## 9.25 Testing with Jest 2/10
+[Activity Walkthrough](https://zoom.us/rec/play/FFd50aKcK8YLZ3sg0WxVd6HOuDuMWqM35spEHWiZcOw2aookhdT3uRMZRZyC4pgTbl1eedijlnai3EVl.MM1AH_UDL7ntvJgp?startTime=1601044667000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
+
+22 minute session 
+    covers: 
+    *   Walkthrough Unit 10 Activity 7, tamogotchi activity
+    *   @ 9 minutes "bang operator"
+    *   @ 13 minutes, question to ponder, how can you make this run repeatedly?
+    *   @ 15 minutes introduces why TDD seems thrown in our course content based on past student feedback
+    *   @ 20 minutes tells us to google test driven development; frameworks, benefits, problems
