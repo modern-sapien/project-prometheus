@@ -834,6 +834,10 @@ Constructors are like blueprints.
 
     const dogs = new Animal(true, "Woof!");
 
+    Chaining constructor methods == 
+    Video Example Testing with Jest 5/10
+    Unit 10 Activity 8
+
 ## Prototypes
 Objects, arrays & primitives are all prototypes, they are hidden but they are are always there. 
 Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want an value of the object to add noise to our code, using a prototype to hide it would be effective.
@@ -862,6 +866,13 @@ Sometimes when we develop code we don't want properties of objects we create to 
 
 Tests force us to write better, more understandable, more maintainable code.
 
+1. Before you write any code, you write tests first
+2. Initially all of your tests should fail
+3. Test Driven Development makes you work through a process as opposed to haphazardly making code
+4. More forethought into the work
+
+
+## Testing with Jest
 The package we are testing with is called Jest
 
 Describe & it blocks, only one it block inside of each describe.

@@ -207,7 +207,7 @@ Here is a list of helpful links regarding videos on BCS
     *   UNIT 10 Activity 6 walkthrough
     *   Great walkthrough for understanding Constructors bette, but does not include any prototyping.
 
-## 9.25 Constructors 1/10
+## 9.25 Testing with Jest 1/10
 [Constructors, Call Back Functions, Promises & Asyncs/Awaits oh my!](https://zoom.us/rec/play/rmlXCdGq3TxTVRBqn6Dk2KAuFo1go8wIKvb-kacOPdUS_3FlJme4cOc38qQ7XXXk-wFr9t2hJkgvOWXK.VGj7oqGc1qwvSFrX?startTime=1601039894000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
 
 42 minute session 
@@ -218,7 +218,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 27 minutes brings in Util to promisify fs.readFile & fs.writeFile
     *   @ 30 minutes incorporates Async / Await
 
-## 9.25 Testing with Jest 1/10
+## 9.25 Testing with Jest 2/10
 [Week Re-Cap](https://zoom.us/rec/play/pBVnMPOgwaVqe8YimHVvjKZ-y_XeXxaDkoM7kC4y6m38mSUuxEtXh6rLuB0M6kxYn2ZdWYlRnp3R2mBy.KWe5E01bfHa3FXKL?startTime=1601042628000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
 
 14 minute session 
@@ -227,7 +227,7 @@ Here is a list of helpful links regarding videos on BCS
     *   CLI stands for command line interface
     *   @ 10 minutes introduces activity Unit 10 Activity 7, tamogotchi activity
 
-## 9.25 Testing with Jest 2/10
+## 9.25 Testing with Jest 3/10
 [Activity Walkthrough](https://zoom.us/rec/play/FFd50aKcK8YLZ3sg0WxVd6HOuDuMWqM35spEHWiZcOw2aookhdT3uRMZRZyC4pgTbl1eedijlnai3EVl.MM1AH_UDL7ntvJgp?startTime=1601044667000&_x_zm_rtaid=WKtTzv6GRoeABebhfMlzXQ.1601214855280.94db25747c22c1e236f90fad7ac07ddd&_x_zm_rhtaid=593)
 
 22 minute session 
@@ -237,3 +237,20 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 13 minutes, question to ponder, how can you make this run repeatedly?
     *   @ 15 minutes introduces why TDD seems thrown in our course content based on past student feedback
     *   @ 20 minutes tells us to google test driven development; frameworks, benefits, problems
+
+## 9.25 Testing with Jest 4/10
+[What is test driven development?](https://zoom.us/rec/play/JrmsByFZqx4u78R7frCWxGacV-bpSXlSl6ZHgd1_wm0nU8fqqBdbHTWIYUWJMRRk13NPYmjV4tlHOZk.3jsc6QHymi-ahG_X?startTime=1601046326000&_x_zm_rtaid=gzGVH5KoTxOKWR-EldijVQ.1601224195846.52a96ecd350d4ec126cf30b5fc04f275&_x_zm_rhtaid=906)
+
+7 minute session 
+    covers: 
+    *   Explanation with class responeses about test driven development
+    *   @ 5 minutes introduces Unit 10 Activity 8
+
+## 9.25 Testing with Jest 5/10
+[Jest Test Review](https://zoom.us/rec/play/xzUpTPeOhE2-k7lhSOIqvRx6BOiQ9BKfE8-oRJlBfM5sYmklRZc6Hk0UDZ-ED9MogeAei1URZjpaQUtZ.tw_PFLeg_SHpf5EN?startTime=1601047270000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
+
+30 minute session 
+    covers: 
+    *   Walkthrough Unit 10 Activity 8
+    *   @ 1 minute, if you are building constructors and want to chain methods
+    *   
