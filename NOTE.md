@@ -877,26 +877,31 @@ The package we are testing with is called Jest
 
 Describe & it blocks, only one it block inside of each describe.
 Lesson 10, Activity 08
+    For each module we write a test.
+    We describe every function inside of a module, we describe a parent and we have at least one it block within each describe. It blocks should not be nested.
+    it("blocks are written in a way that we can know what's happening in the test in plain langauge")
 
-1.  Saving Methods
+    Saving Methods
     Save tests as a .test.js file
     Save those tests in a test folder
 
-2.  Testing methods 
-    THREE STEP PROCESS FOR WRITING UNIT TESTS
+*   THREE STEP PROCESS FOR WRITING UNIT TESTS
     Lesson 10, Activity 09
     * Arrange
     * Act
     * Assert
 
-3. Testing Methods Continued
-We test for both positive & negative cases
+We test for both positive & negative cases, where things go right and where things go wrong.
 
 You can test code for third party packages
 Lesson 10 - Activity 15
 
-Mock STEPS
-Mocks are used inside of a unit test to hold the place of an existing function, we do not control.
+### MOCKS
+
+Mocks are used inside of a unit test to hold the place of an existing function, we do not control, like an API call. 
+
+Mock functions, do nothing!
+
 LESSON 10, Activit 13
 1. create mock implementation by spying on existing function
 

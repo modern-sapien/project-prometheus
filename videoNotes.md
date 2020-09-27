@@ -253,4 +253,32 @@ Here is a list of helpful links regarding videos on BCS
     covers: 
     *   Walkthrough Unit 10 Activity 8
     *   @ 1 minute, if you are building constructors and want to chain methods
-    *   
+    *   @ 8 minutes, for now we are concerned with testing that a constructor always returns an object.
+    *   @ 9 minutes, introduces Unit 10 Activity 09
+    *   @ 10 minutes walkthrough of Unit 10 Activity 09
+    *   @ 17 minutes - quickest way to reverse a string, split, reverse, join.
+    *   @ 17.50 minutes - introduces three step process for writing unit tests
+    *   @ 28 minutes gives class assignment of writing last test before lunch break
+
+## 9.25 Testing with Jest 6/10
+[Activity 9 Pt. 3Walkthrough](https://zoom.us/rec/play/urrvJ3N1ac7bDpy_vgeAAvhK-SRcj7zdXZ7YUJBvNKGDAgaXP-qrKxtKBlaoQiURbYRurmBGM2Ntnh8z.iTGQ_KR6H8hJvJ99?startTime=1601049682000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
+
+10 minute session 
+    covers: 
+    *   Walkthrough Unit 10 Activity 9 - 3rd example
+
+## 9.25 Testing with Jest 7/10
+[Unit 10 Activity 11](https://zoom.us/rec/play/jvbae04AuQVXXxCyZidFSU14GIlT0m8egXGAF7zZdK1uR0Q1NVLKvp5Ex1L3KYp07tLw4vSeAerJLdMc.gS18VMFHAr0Ski_u?startTime=1601052318000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
+
+8 minute session 
+    covers: 
+    *   Briefly talks through TDD we have seen so far by clicking through Unit 10 Activity 11.
+    *   Introduces Unit 10 Activity 12
+
+## 9.25 Testing with Jest 8/10
+[Unit 10 Activity 12](https://zoom.us/rec/play/VNRq9QTW7X8KjoUon1o9FcRMaEYtVDQofe4Ka9Afr8dOIBmKI2dO4-ldMEQaxRhjYsW6flLZiIP9O3Pf.dcp0wdSAUMUuFVDs?startTime=1601053785000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
+
+28 minute session 
+    covers: 
+    *   Walkthrough Unit 10 Activity 12
+    *   @6 minutes introduces Mocks with Jest
