@@ -276,9 +276,30 @@ Here is a list of helpful links regarding videos on BCS
     *   Introduces Unit 10 Activity 12
 
 ## 9.25 Testing with Jest 8/10
-[Unit 10 Activity 12](https://zoom.us/rec/play/VNRq9QTW7X8KjoUon1o9FcRMaEYtVDQofe4Ka9Afr8dOIBmKI2dO4-ldMEQaxRhjYsW6flLZiIP9O3Pf.dcp0wdSAUMUuFVDs?startTime=1601053785000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
+[Mock Implementation](https://zoom.us/rec/play/VNRq9QTW7X8KjoUon1o9FcRMaEYtVDQofe4Ka9Afr8dOIBmKI2dO4-ldMEQaxRhjYsW6flLZiIP9O3Pf.dcp0wdSAUMUuFVDs?startTime=1601053785000&_x_zm_rtaid=YHepKaBKRbWZibjL0dE3AQ.1601233473002.ffc33cf2f121e85391becc5c6c850137&_x_zm_rhtaid=135)
 
 28 minute session 
     covers: 
     *   Walkthrough Unit 10 Activity 12
-    *   @6 minutes introduces Mocks with Jest
+    *   @ 6 minutes introduces Mocks with Jest
+    *   @ 12 minutes wallkthrough Unit Activity 13
+    *   @ 15 minutes walkthrough of mock implementation
+    *   @ 27 minutes introduces Unit 10 Activity 14
+
+## 9.25 Testing with Jest 9/10
+[mockReturnValue](https://zoom.us/rec/play/OZlISwWJERsrG6mqh9g9Z1Ex6Fvdo0fl3CM26wX6cUjtE6-RNGBePgrjpvgWQk0XVDyuKkvCHuO06J31._sKlDnPFbjevbxdq?startTime=1601056308000&_x_zm_rtaid=S9khwfcIQNy7Q_jZCv9WFQ.1601240920046.6335402c97749d368f3d5838802e6447&_x_zm_rhtaid=789)
+
+38 minute session 
+    covers: 
+    *   Walkthrough Unit 10 Activity 14
+    *   @ 9 minutes toHaveBeenCalled / toBecalledWith
+    *   @ 11 minutes Walkthrough Unit 10 Activity 15 // mocking return value
+    *   @ 22 minutes discusses upcoming homework with unit testing & constructors & classes
+
+## 9.25 Testing with Jest 10/10
+[HW Setup Walkthrough](https://zoom.us/rec/play/1rM4b3aK6wCTCZeX8xMzOLYTbLRaAgtfsTEYkI54tOskBB4TxqaF0ows83w0HZk19IHiXpThT6DAkcQ6.XXS8y58vpLzFgM7p?startTime=1601058757000&_x_zm_rtaid=S9khwfcIQNy7Q_jZCv9WFQ.1601240920046.6335402c97749d368f3d5838802e6447&_x_zm_rhtaid=789)
+
+15 minute session 
+    covers: 
+    *   Walkthrough of setup for homework
+    *   @ 11 minutes demo of functional homework

@@ -897,6 +897,7 @@ You can test code for third party packages
 Lesson 10 - Activity 15
 
 ### MOCKS
+Video Testing With Jest Unit 10 Activity 12
 
 Mocks are used inside of a unit test to hold the place of an existing function, we do not control, like an API call. 
 
@@ -904,9 +905,22 @@ Mock functions, do nothing!
 
 LESSON 10, Activit 13
 1. create mock implementation by spying on existing function
+    const mock = jest.spyOn(console, "log");
 
-2. Setup a mock implementation. Empty arrow function. Don't do anything
+2. Setup a mock implementation. Empty arrow function. It triggers a function that doesn't do anything
+    mock.mockImplementation(() => {})
+    
+    log.black(message)
 
 3. We expect the mock to have been called
+    expect(mock).toBeCalledWith(colors.black, message);
 
-4. Restore the mock at the end of the test.
+4. Restore the mock at the end of the test, so it can be used in other ways
+    mock.mockRestore();
+
+alternative example
+
+Unit 10 Activity 15: mocking a return value
+.mockReturnValue( new Promise( function(resolve){
+    resolve({data: {}   });
+}))
