@@ -303,3 +303,64 @@ Here is a list of helpful links regarding videos on BCS
     covers: 
     *   Walkthrough of setup for homework
     *   @ 11 minutes demo of functional homework
+
+## 9.28 ES6 1/
+[TDD Concepts](video link)
+
+40 minute session 
+    covers: 
+    *   Walkthrough of testing concepts with open questions from students
+    *   Talks about what will help you get a job, THE ABILITY TO LEARN
+    *   @ 30 minutes - goes over constructors // users whiteboard
+    *   @ 35 minutes getters & setters how it is used 
+
+## 9.28 ES6 2/
+[OOP review](video link)
+
+ minute session 
+    covers: 
+    *   Quote of the week, "our doubts are traitors and make us lose the good we oft might win, by fearing to attempt." - shakespeare
+    *   @ ___ minutes - walkthrough Unit 10 Activity 18
+    *   @ ____ minutes - introduces Unit 10 Activity 19
+
+## 9.28 ES6 3/
+[Activity Walkthrough](video link)
+
+ minute session 
+    covers: 
+    *   walkthrough Unit 10 Activity 19
+    *   explains throw err versus console.log(errors) with catch & throw
+    *   @ __ walkthrough Unit 10 Activity 20
+    *   @ ___ for in loop = way to pull keys off of objects** with printInfo()
+    *   @ ____ explains how we can extend parent classes to subclasses & interact with given values to adjust inherited values
+    *   @ ____ introduces Unit 10 Activity 21
+
+## 9.28 ES6 4/
+[Activity Walkthrough](video link)
+
+ minute session 
+    covers: 
+    *   review Unit 10 Activity 21
+    *   @ ___ minutes walksthrough Unit 10 Activity 22; MULTIPLE CLASSES
+    *   @____ minutes storing a value on a class itself
+    *   @___ minutes introduces Unit Activity 23
+
+## 9.28 ES6 5/
+[Activity Walkthrough](video link)
+
+ minute session 
+    covers: 
+    *   Walkthrough Unit Activity 23
+    *   Loops with assigning values within objects
+    *   A module export may be destructed to access only a particular key.
+    *   @ ___ minutes introduces activity Unit 10 Activity 24 (mini-project)
+
+## 9.28 ES6 6/
+[MiniProject Walkthrough](video link)
+
+ minute session 
+    covers: 
+    *   Unit 10 Activity 24 (mini-project)
+    *   npm install jest -D << dev dependency
+    *   Asks us to work on this further for deeper understanding
+    *   @ ____ introduces Unit 11

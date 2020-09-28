@@ -808,7 +808,7 @@ How can objects work together to solve problems?
 Javascript is a scripting language, functinal programing, but we can write it in an object oriented fashion.
 
 ## Constructor
-Constructors are like blueprints.
+Constructors are like blueprints for objects.
     * activity 1 & 2
     * with a constructor we can make new objects any time we want.
     * when we define a constructor function, we [capitalize] the first letter.
@@ -816,6 +816,13 @@ Constructors are like blueprints.
     * the resulting object that comes out of a constructor is an instance.
     * You can not call methods off of the constructor, you have to call it off of the instance.
 
+    * Getters & Setters
+        restricts how we interact with objects.
+        getAge();
+            return this.age
+        setAge();
+            this.age = age
+    
     If you are building constructors and you want to chain methods
     Lesson 10, Activity 8
     return new Arithmetic(newNumber);
@@ -839,8 +846,8 @@ Constructors are like blueprints.
     Unit 10 Activity 8
 
 ## Prototypes
-Objects, arrays & primitives are all prototypes, they are hidden but they are are always there. 
-Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want an value of the object to add noise to our code, using a prototype to hide it would be effective.
+Objects, arrays & primitives have prototype methods, they are hidden but they are are always there. 
+Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want a value of the object to add noise to our code, using a prototype to hide it would be effective.
 
     -Example    Unit 10 Activity 5
     function Movie(title, releaseYear)  {
@@ -868,8 +875,13 @@ Tests force us to write better, more understandable, more maintainable code.
 
 1. Before you write any code, you write tests first
 2. Initially all of your tests should fail
-3. Test Driven Development makes you work through a process as opposed to haphazardly making code
-4. More forethought into the work
+3. Handle   Positive    = return true
+            Negatives   = return false
+            Exceptions  
+4. AAA Method   - arrange, act, assert
+
+* Test Driven Development makes you work through a process as opposed to haphazardly making code
+* More forethought into the work  
 
 
 ## Testing with Jest
