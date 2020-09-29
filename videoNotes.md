@@ -364,3 +364,48 @@ Here is a list of helpful links regarding videos on BCS
     *   npm install jest -D << dev dependency
     *   Asks us to work on this further for deeper understanding
     *   @ ____ introduces Unit 11
+
+
+## 9.29 ES6 1/
+[MiniProject Walkthrough Extended](video link)
+
+ minute session 
+    covers: 
+    *   Unit 10 Activity 24 (mini-project)
+    *   @ ____ minutes uses map to iterate through an array
+    *   @ ____ minutes uses forEach
+    *   @____ introduces .every()
+
+## 9.29 ES6 2/
+[Introduction to Node Servers](video link)
+
+ minute session 
+    covers: 
+    *   What is a server?
+    *   What is a client?
+    *   @ ____ minutes uses forEach
+    *   @____ introduces .every()
+    *   @___ introduces Unit 11 Activity 05
+
+## 9.29 ES6 3/
+[Introduction to Node Servers](video link)
+
+ minute session 
+    covers: 
+    *   Walkthrough Unit 11 Activity 05
+            * res.end() writes to port page
+    *   @___ minutes explains __dirname
+
+## 9.29 ES6 4/
+[Introduction to Node Servers](video link)
+
+ minute session 
+    covers: 
+    *   Walkthrough Unit 11 Actitivity 6
+    *   GET requests do not accept data
+    *   If we want to send information to a server we need to use a POST request
+    *   @ ____ postman introduction/walkthrough
+            1. POST request
+            2. Body
+            3. Raw
+            4. JSON
