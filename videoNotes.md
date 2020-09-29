@@ -339,13 +339,13 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 13 minutes explains how we can extend parent classes to subclasses & interact with given values to adjust inherited values
     *   @ 28 minutes introduces Unit 10 Activity 21
 
-## 9.28 ES6 4/
+## 9.28 ES6 4/6
 [Activity Walkthrough](https://zoom.us/rec/play/RepjAZKZVks7dI21rDubRVxjOdq07RDxYQ6rFDYGpkT6Bzi-XeKNA3FtdTo5seoXj8zOTlHSguXesUBp.1f0NRiCWXml4--VE?startTime=1601306342000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
- minute session 
+ 34 minute session 
     covers: 
-    *   review Unit 10 Activity 21
-    *   @ ___ minutes walksthrough Unit 10 Activity 22; MULTIPLE CLASSES
+    *   walkthrough Unit 10 Activity 21
+    *   @ 17 minutes walkthrough Unit 10 Activity 22; MULTIPLE CLASSES
     *   @____ minutes storing a value on a class itself
     *   @___ minutes introduces Unit Activity 23
 
