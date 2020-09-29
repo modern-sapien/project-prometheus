@@ -346,8 +346,10 @@ Here is a list of helpful links regarding videos on BCS
     covers: 
     *   walkthrough Unit 10 Activity 21
     *   @ 17 minutes walkthrough Unit 10 Activity 22; MULTIPLE CLASSES
-    *   @____ minutes storing a value on a class itself
-    *   @___ minutes introduces Unit Activity 23
+    *   @ 18 minutes uses .map() & class another class
+    *   @ 19 minutes STATIC property & 21 minutes seperation of concerns practices
+    *   Works through how the classes are calling each other
+    *   @ 30 minutes introduces Unit Activity 23
 
 ## 9.28 ES6 5/
 [Activity Walkthrough](video link)

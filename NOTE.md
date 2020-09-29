@@ -893,7 +893,7 @@ Classes are syntactic sugar on top of Constructors, underneath it is just a cons
     rectangle.setArea(300);
     rectangle.printInfo();
 
-When using subclasses
+### Subclasses
 Unit 10 Activity 20
     1. A parent class must be imported using module.exports
     2. New class definition must extend parent class
@@ -913,6 +913,11 @@ Unit 10 Activity 20
     }
     const rectangle = new Rectangle(12,9)
     rectangle.printInfo();
+
+### Multiple Classes
+    Unit 10 Activity 22
+    
+    Multiple classes do not have to extend eachother, but can call eachother.
 
 
 ## Prototypes
