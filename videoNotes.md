@@ -304,39 +304,43 @@ Here is a list of helpful links regarding videos on BCS
     *   Walkthrough of setup for homework
     *   @ 11 minutes demo of functional homework
 
-## 9.28 ES6 1/
-[TDD Concepts](video link)
+## 9.28 ES6 1/6
+[Testing Overview & Constructors](https://zoom.us/rec/play/BX6JMnhyAEuilBV2DmeA2-0LPu6BkyEtFP49dQFWRhAwGny4e0SJ9zjn03mBFgGn2vj7l8Nj7e7Xh3aF.orEV5vtW6tQ0ez1w?startTime=1601299094000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
 40 minute session 
     covers: 
     *   Walkthrough of testing concepts with open questions from students
     *   Talks about what will help you get a job, THE ABILITY TO LEARN
-    *   @ 30 minutes - goes over constructors // users whiteboard
-    *   @ 35 minutes getters & setters how it is used 
+    *   @ 14 minutes covers Arrange, Act, Assert
+    *   @ 20 minutes motivational speech
+    *   @ 30 minutes Constructors & Object Oriented 
+    *   @ 34 minutes getters & setters how it is used 
+    *   @ 38 minutes example of difference between javascript way of changing object values & OOP way with methods.
 
-## 9.28 ES6 2/
-[OOP review](video link)
+## 9.28 ES6 2/6
+[Introduction of Classes](https://zoom.us/rec/play/EpfzExqnnLBvPauEUaU-140iM3P9TWyeSTKR2VdWY3sEW17JoUt8I37TS2cJ8htRifQ-vYVEx8dcHh56.WnjLKbA4SfUNGOcg?startTime=1601301674000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
- minute session 
+ 20 minute session 
     covers: 
     *   Quote of the week, "our doubts are traitors and make us lose the good we oft might win, by fearing to attempt." - shakespeare
-    *   @ ___ minutes - walkthrough Unit 10 Activity 18
-    *   @ ____ minutes - introduces Unit 10 Activity 19
+    *   @ 6 minutes - walkthrough Unit 10 Activity 18
+    *   @ 16 minutes - introduces Unit 10 Activity 19
 
-## 9.28 ES6 3/
-[Activity Walkthrough](video link)
+## 9.28 ES6 3/6
+[Classes Review](https://zoom.us/rec/play/FARfQeS-hFD2-LjzIvNqjYGDM7kg97TVMTVyUZgBmsguAVyL-xE69OgQwVN98eo1sIcn_iikWb3kDyBk.QjxSTWzVKRx-iq-E?startTime=1601303611000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
- minute session 
+30 minute session 
     covers: 
     *   walkthrough Unit 10 Activity 19
-    *   explains throw err versus console.log(errors) with catch & throw
-    *   @ __ walkthrough Unit 10 Activity 20
-    *   @ ___ for in loop = way to pull keys off of objects** with printInfo()
-    *   @ ____ explains how we can extend parent classes to subclasses & interact with given values to adjust inherited values
-    *   @ ____ introduces Unit 10 Activity 21
+    *   Explains throw err versus console.log(errors) with catch & throw
+            * throw new Error("Missing an input!") ... Error is a constructor
+    *   @ 8 minutes walkthrough Unit 10 Activity 20
+    *   @ 11 minutes for in loop = way to pull keys off of objects** with printInfo()
+    *   @ 13 minutes explains how we can extend parent classes to subclasses & interact with given values to adjust inherited values
+    *   @ 28 minutes introduces Unit 10 Activity 21
 
 ## 9.28 ES6 4/
-[Activity Walkthrough](video link)
+[Activity Walkthrough](https://zoom.us/rec/play/RepjAZKZVks7dI21rDubRVxjOdq07RDxYQ6rFDYGpkT6Bzi-XeKNA3FtdTo5seoXj8zOTlHSguXesUBp.1f0NRiCWXml4--VE?startTime=1601306342000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
  minute session 
     covers: 
@@ -367,11 +371,13 @@ Here is a list of helpful links regarding videos on BCS
 
 
 ## 9.29 ES6 1/
-[MiniProject Walkthrough Extended](video link)
+[Testing Overview & Constructors](https://zoom.us/rec/play/BX6JMnhyAEuilBV2DmeA2-0LPu6BkyEtFP49dQFWRhAwGny4e0SJ9zjn03mBFgGn2vj7l8Nj7e7Xh3aF.orEV5vtW6tQ0ez1w?startTime=1601299094000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
- minute session 
+40 minute session 
     covers: 
-    *   Unit 10 Activity 24 (mini-project)
+    *   @ 14 minutes covers Arrange, Act, Assert
+    *   @ 20 minutes motivational speech
+    *   @ 30 minutes Constructors & Object Oriented 
     *   @ ____ minutes uses map to iterate through an array
     *   @ ____ minutes uses forEach
     *   @____ introduces .every()

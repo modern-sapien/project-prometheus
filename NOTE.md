@@ -95,6 +95,18 @@ A MORE CONCISE EXAMPLE
     console.log("I am " + i);
     }
 
+## FOR IN LOOP!
+Unit 10 Activity 20
+FOR IN iterates through an object to pull keys & values
+
+    -EXAMPLE
+    printInfo() {
+        for (const key in this) {
+            console.log(${key}: ${this[key]}`);
+        }
+    }
+    when called on an object would log key value pairs. KEY: VALUE
+
 ## FUNCTIONS
     A function definition consists of the 
         function keyword; a list of parameters to the function, enclosed in parenthesis and separated by commas; and the javascript statements that define the function enclosed in curly brackets
@@ -513,12 +525,18 @@ node _____.js  [position2]   [position3]
 
     Can use console.log to setup basic functions in the command line using process.argv
 
+## MODULES
+
 To Use A Module
-1. A module must be exported, always an object
+1. A module must be exported
+
         module.exports = {
             pie: pie,
             predictable: predictable
         }
+
+        module.exports = variable;
+        module.exports = function();
 
 2. A module must be imported
         const fs = require("fs")   
@@ -817,7 +835,9 @@ Constructors are like blueprints for objects.
     * You can not call methods off of the constructor, you have to call it off of the instance.
 
     * Getters & Setters
-        restricts how we interact with objects.
+      This is more typical in a strongly typed langauge like Java.
+      Restricts how we access values with objects. This also limits what can be on the object.
+      -EXAMPLE
         getAge();
             return this.age
         setAge();
@@ -845,9 +865,59 @@ Constructors are like blueprints for objects.
     Video Example Testing with Jest 5/10
     Unit 10 Activity 8
 
+## Classes & Constructors
+Unit 10 Activity 18
+
+Classes are syntactic sugar on top of Constructors, underneath it is just a constructor, still a blueprint for creating an object. We can store methods & values on classes for subclasses to inherit.
+
+    -EXAMPLE
+    class Shape{    
+    constructor(area, perimeter)    {
+        this.area = area;
+        this.perimeter = perimeter;
+    }
+    getArea()   {
+        return this.area;
+    }
+    setArea()   {
+        this.area = area;
+    }
+    printInfo() {
+        console.log(`Area: ${this.area}`)
+        console.log(`Perimeter: ${this.perimeter}`)
+    }
+    }
+
+    const rectangle = new Shape(200, 60);
+    console.log(rectangle);
+    rectangle.setArea(300);
+    rectangle.printInfo();
+
+When using subclasses
+Unit 10 Activity 20
+    1. A parent class must be imported using module.exports
+    2. New class definition must extend parent class
+    3. To access the parent, you use super
+    
+    const Shape = require("/shape")
+
+    class Rectangle extends Shape {
+        constructor(sideA, sideB)   {
+            const area = sideA * sideB;
+            const perimeter = sideA * 2 + sideB * 2;
+
+            super(area, perimeter);
+            this.sideA = sideA;
+            this.sideB = sideB;
+        }
+    }
+    const rectangle = new Rectangle(12,9)
+    rectangle.printInfo();
+
+
 ## Prototypes
 Objects, arrays & primitives have prototype methods, they are hidden but they are are always there. 
-Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want a value of the object to add noise to our code, using a prototype to hide it would be effective.
+Sometimes when we develop code we don't want properties of objects we create to be available, so that is where prototypes come in handy. Like if we were going to console.log something a lot, and we didn't want a method of the object to add noise to our code, using a prototype to hide it would be effective.
 
     -Example    Unit 10 Activity 5
     function Movie(title, releaseYear)  {
@@ -874,10 +944,14 @@ Sometimes when we develop code we don't want properties of objects we create to 
 Tests force us to write better, more understandable, more maintainable code.
 
 1. Before you write any code, you write tests first
+
 2. Initially all of your tests should fail
+    avoid false positives with your tests
+
 3. Handle   Positive    = return true
             Negatives   = return false
             Exceptions  
+
 4. AAA Method   - arrange, act, assert
 
 * Test Driven Development makes you work through a process as opposed to haphazardly making code
