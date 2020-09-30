@@ -340,7 +340,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 28 minutes introduces Unit 10 Activity 21
 
 ## 9.28 ES6 4/6
-[Activity Walkthrough](https://zoom.us/rec/play/RepjAZKZVks7dI21rDubRVxjOdq07RDxYQ6rFDYGpkT6Bzi-XeKNA3FtdTo5seoXj8zOTlHSguXesUBp.1f0NRiCWXml4--VE?startTime=1601306342000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
+[Multiple Classes Walkthrough](https://zoom.us/rec/play/RepjAZKZVks7dI21rDubRVxjOdq07RDxYQ6rFDYGpkT6Bzi-XeKNA3FtdTo5seoXj8zOTlHSguXesUBp.1f0NRiCWXml4--VE?startTime=1601306342000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
 
  34 minute session 
     covers: 
@@ -349,43 +349,43 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 18 minutes uses .map() & class another class
     *   @ 19 minutes STATIC property & 21 minutes seperation of concerns practices
     *   Works through how the classes are calling each other
-    *   @ 30 minutes introduces Unit Activity 23
+    *   @ 30 minutes introduces Unit Activity 23 ** Testing with multiple classes
 
-## 9.28 ES6 5/
-[Activity Walkthrough](video link)
+## 9.28 ES6 5/6
+[Testing With Multiple Class Walkthrough](https://zoom.us/rec/play/L6U6kC8I9pWLosaQc3UKvAXQFzrfDDARdk_7puEzqljZBClt3Ck1sChee3lEO1zYm3BqVygVhwCpwZj8.iQe8ia_Eayo8ivZK?startTime=1601311545000&_x_zm_rtaid=oefzCHduSY2tSzQ2ozYWww.1601413503511.142689efda52c337f9dbd45b624aab71&_x_zm_rhtaid=639)
 
- minute session 
+ 22 minute session 
     covers: 
-    *   Walkthrough Unit Activity 23
-    *   Loops with assigning values within objects
-    *   A module export may be destructed to access only a particular key.
-    *   @ ___ minutes introduces activity Unit 10 Activity 24 (mini-project)
+    *   Walkthrough Unit 10 Activity 23
+    *   @ 5 minutes Loops with assigning values within objects
+    *   @ 12 minutes EXPORTING an array from a deconstructed object !COOL!
+#####  BRUTAL RATING: HIGH
+    *   @ 14 minutes introduces activity Unit 10 Activity 24 (mini-project) 
 
-## 9.28 ES6 6/
-[MiniProject Walkthrough](video link)
+## 9.28 ES6 6/6
+[MiniProject Walkthrough](https://zoom.us/rec/play/mfX_CEroFCcEOtpMNvxKS1TlyijmdW80fktQObOjTDK6_JDbiJJDhZhI7PgTsm7FpRmznoEZubL5475u.FYHbxSGp0m1bX0AN?startTime=1601316613000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
- minute session 
+ 21 minute session 
     covers: 
     *   Unit 10 Activity 24 (mini-project)
+    *   initializing, install jest, 
     *   npm install jest -D << dev dependency
     *   Asks us to work on this further for deeper understanding
-    *   @ ____ introduces Unit 11
+    *   @ 20 minutes introduces Unit 11
 
 
-## 9.29 ES6 1/
-[Testing Overview & Constructors](https://zoom.us/rec/play/BX6JMnhyAEuilBV2DmeA2-0LPu6BkyEtFP49dQFWRhAwGny4e0SJ9zjn03mBFgGn2vj7l8Nj7e7Xh3aF.orEV5vtW6tQ0ez1w?startTime=1601299094000&_x_zm_rtaid=9FKtEPq8SbCfN4CRosNvkg.1601406263928.b61aca9617ddc80e2fa81d89d24ee15f&_x_zm_rhtaid=735)
+## 9.29 Node Server & Express 1/9
+[Miniproject Walkthrough](https://zoom.us/rec/play/PsQk397ttg6P8RBBOjAODAeaKcU00YhICnSsK3U49tGB2MX7PO4T8hrBUYCq0ygrW1-isAfIEL-u_1X2.eR6nzzfUmjIFiSsl?startTime=1601311545000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
-40 minute session 
+32 minute session 
     covers: 
-    *   @ 14 minutes covers Arrange, Act, Assert
-    *   @ 20 minutes motivational speech
-    *   @ 30 minutes Constructors & Object Oriented 
-    *   @ ____ minutes uses map to iterate through an array
-    *   @ ____ minutes uses forEach
-    *   @____ introduces .every()
+    *   Can place the letter "x" in fron of the it block in a test, and stop a particular test from running.
+    *   Walksthrough the Miniproject quickly, so we can get to Node Server & Express
+    *   Worth watching through if you want to attempt the miniproject solo
+    *   @ 25 minutes almost reaches solution & calls for a 3 minute break while class solves  
 
-## 9.29 ES6 2/
-[Introduction to Node Servers](video link)
+## 9.29 ES6 2/10
+[This is MISSING]()
 
  minute session 
     covers: 
@@ -396,13 +396,12 @@ Here is a list of helpful links regarding videos on BCS
     *   @___ introduces Unit 11 Activity 05
 
 ## 9.29 ES6 3/
-[Introduction to Node Servers](video link)
+[Activity Walkthrough](https://zoom.us/rec/play/Xy8BRV5FQLi3kwT9klQuF6XDqOEITCfPrCd2Yhwq6gU_3NLKfnVUU0-YXq_pGK2xFxyWJ_BBQcUnrJAF.nGhQVgjwXf9owo1I?startTime=1601389982000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
  minute session 
     covers: 
-    *   Walkthrough Unit 11 Activity 05
-            * res.end() writes to port page
-    *   @___ minutes explains __dirname
+    *   Walks through steps of creating two servers
+    
 
 ## 9.29 ES6 4/
 [Introduction to Node Servers](video link)

@@ -565,7 +565,9 @@ Process for installing 3rd party package
 
 Exports/Imports
 
-    Exports are always an object.
+    Exports are generally objects, but can be strings, booleans, whatever variables. If you want to export and array set it inside of an object and DECONSTRUCT that object on import.
+            UNIT 10 Activity 23 video 9.28 ES6 5/6
+
     Imports
 
 ### inquirer
@@ -917,8 +919,28 @@ Unit 10 Activity 20
 ### Multiple Classes
     Unit 10 Activity 22
     
-    Multiple classes do not have to extend eachother, but can call eachother.
+    Multiple classes do not have to extend eachother, but can call eachother. These items are interrelated, but are not extended from one another. 
+    
+    - EXAMPLE
+    A restaurant builds orders based on an array of items. These items are instances of the class Item. 
+    
+    For every item there is a new Order class instance that holders that order & adds to the lastId value to track how many orders have been generated.
+    
+    Restaurant(name, orders, revenue)
+        items [ new Item(value,value)
+                new Item(value,value)
+                new Item(value,value)]
+    
+    Item(name, price)
+        this.name = name
+        this.price = price
 
+    Orders(item)
+        this.item = item
+        Order.lastId++
+        this.id = Order.lastId
+
+        Order.lastId = 0;
 
 ## Prototypes
 Objects, arrays & primitives have prototype methods, they are hidden but they are are always there. 
@@ -984,8 +1006,11 @@ Lesson 10, Activity 08
 
 We test for both positive & negative cases, where things go right and where things go wrong.
 
-You can test code for third party packages
+You can test code with third party packages
 Lesson 10 - Activity 15
+
+###### Helpful
+(can place the letter "x" in fron of the it block in a test, and stop a particular test from running.)
 
 ### MOCKS
 Video Testing With Jest Unit 10 Activity 12
