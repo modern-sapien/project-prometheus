@@ -384,7 +384,7 @@ Here is a list of helpful links regarding videos on BCS
     *   Worth watching through if you want to attempt the miniproject solo
     *   @ 25 minutes almost reaches solution & calls for a 3 minute break while class solves  
 
-## 9.29 ES6 2/10
+## 9.29 Node Server & Express 2/10
 [This is MISSING]()
 
  minute session 
@@ -395,15 +395,15 @@ Here is a list of helpful links regarding videos on BCS
     *   @____ introduces .every()
     *   @___ introduces Unit 11 Activity 05
 
-## 9.29 ES6 3/
+## 9.29 Node Server & Express 3/
 [Activity Walkthrough](https://zoom.us/rec/play/Xy8BRV5FQLi3kwT9klQuF6XDqOEITCfPrCd2Yhwq6gU_3NLKfnVUU0-YXq_pGK2xFxyWJ_BBQcUnrJAF.nGhQVgjwXf9owo1I?startTime=1601389982000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
  minute session 
     covers: 
     *   Walks through steps of creating two servers
-    
 
-## 9.29 ES6 4/
+
+## 9.29 Node Server & Express 4/
 [Introduction to Node Servers](video link)
 
  minute session 

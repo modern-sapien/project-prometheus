@@ -1040,3 +1040,31 @@ Unit 10 Activity 15: mocking a return value
 .mockReturnValue( new Promise( function(resolve){
     resolve({data: {}   });
 }))
+
+=======================
+## NODE & EXPRESS   SERVERS
+=======================
+
+Node & Express servers are will be what allows us to CLAIM being full stack developers.
+pluralsight express.js course is recommended as SUPPLEMENTAL LEARNING MATERIAL
+
+
+Server - a machine & the code that handles client requests & responds to them.
+            STORED within a server is a TON of content that it can use as responses
+
+Client  - a user's personal machine which makes requests of the server
+
+Client Request - client's request containes the name & address (URL) of whatever the client is looking for.
+
+Reponse - The server's response contains the actual document that the client requested (or an error code if the request cannot be processed)
+
+VISUAL EXAMPLE OF 
+                REQUEST
+    [USER    ]  ------------->  [SERVER]    <------ [content server has]
+    [computer]  <-------------  [      ]
+                    RESPONSE
+
+Example of server-side code = visiting a URL and being presented with an HTML page, clicking an invoice with a PDF report that opens, image processing software that filters an image & saves new version.
+
+Communication between CLIENTS & SERVERS -
+    Clients & servers communicate through a series of boops & beeps known to humans as HTTP/HTTPS. Hypertext Transfer Protocol Secure
