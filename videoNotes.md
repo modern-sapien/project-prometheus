@@ -400,7 +400,8 @@ Here is a list of helpful links regarding videos on BCS
 
  minute session 
     covers: 
-    *   Walks through steps of creating two servers
+    *   Walks through 5 steps of creating a server
+    *   A SERVER CAN ONLY LISTEN TO ONE PORT AT A TIME
 
 
 ## 9.29 Node Server & Express 4/

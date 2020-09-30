@@ -1087,11 +1087,35 @@ Building a server
 Imagine
     The server is a big empty box
     We give the server power to do things in response to the requests that come in using code
-    CONNECTION: We add a LISTENER to the server to be able to listen for client requests
+    
+    CONNECTION: We add a LISTENER to the server to be able to listen for client requests (a server can only listen to one port at a time)
+    
     PARSING:    We give the server the ability to PARSE or interpret URLs that the client requests
+    
     ROUTING:    The server ROUTES the flow of logic to begin other processes
+    
     "OTHER PROCESSES"
         SENDING:    The responses may be sending HTML files for rendering or JSON files
         RECEIVING POSTS:  We can include a module to handle user's POST request (data users sends a server)
         LOGIC:   Performing logic that initiates when users complete specific actions; reaching a route endpoint or sending data
         & MORE!
+
+### FIVE STEP PROCESS FOR CREATING A SERVER
+LESSON 11 Acitivity 1
+
+1. import HTTP          const http = require("http");
+
+2. use a port           const PORT = 7000;
+
+3. create a server      const server = http:createServer();
+
+4. LISTEN               server.listen(PORT, function(){
+                        console.log(`Listening on http://localhost:${PORT}`)})
+
+5. Handle the Request   function handleRequest(request, response){
+                        response.end("This is a test, this only a test")    }
+
+
+ sub steps
+    1. We need to pass our handleRequest functions into the createServer callback (step 3)
+    2. We need to ensure that our server has recognized our changes, by STOPPING and RESTARTING unless running a third party software like nodemon.
