@@ -1068,3 +1068,30 @@ Example of server-side code = visiting a URL and being presented with an HTML pa
 
 Communication between CLIENTS & SERVERS -
     Clients & servers communicate through a series of boops & beeps known to humans as HTTP/HTTPS. Hypertext Transfer Protocol Secure
+
+What is Full Stack Development?
+    There is a constant interplay of what a user's machine/client browser requests & how a backend server handles that data and its response. 
+
+    Servers during development live on our personal computers where we can test & run a browser connected to a LOCALHOST port on our machine that will HOST a server we are using.
+
+    After the development phase servers typically live in the CLOUD through a cloud server service; AWS, Heroku, Google Cloud
+
+Building a server
+    Although our machines can host servers, we still need to "build a server" with code that stipulates what a server can/will do.
+        *   establishes connections to the database
+        *   handling client-side URL requests
+        *   performing server-side processes
+        *   authenticating user requests
+        *   logging client requests
+
+Imagine
+    The server is a big empty box
+    We give the server power to do things in response to the requests that come in using code
+    CONNECTION: We add a LISTENER to the server to be able to listen for client requests
+    PARSING:    We give the server the ability to PARSE or interpret URLs that the client requests
+    ROUTING:    The server ROUTES the flow of logic to begin other processes
+    "OTHER PROCESSES"
+        SENDING:    The responses may be sending HTML files for rendering or JSON files
+        RECEIVING POSTS:  We can include a module to handle user's POST request (data users sends a server)
+        LOGIC:   Performing logic that initiates when users complete specific actions; reaching a route endpoint or sending data
+        & MORE!
