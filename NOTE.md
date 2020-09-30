@@ -565,7 +565,7 @@ Process for installing 3rd party package
 
 Exports/Imports
 
-    Exports are generally objects, but can be strings, booleans, whatever variables. If you want to export and array set it inside of an object and DECONSTRUCT that object on import.
+    Exports are generally objects, but can be strings, booleans, whatever variables. If you want to export an array set it inside of an object and DECONSTRUCT that object on import.
             UNIT 10 Activity 23 video 9.28 ES6 5/6
 
     Imports
@@ -1119,3 +1119,27 @@ LESSON 11 Acitivity 1
  sub steps
     1. We need to pass our handleRequest functions into the createServer callback (step 3)
     2. We need to ensure that our server has recognized our changes, by STOPPING and RESTARTING unless running a third party software like nodemon.
+
+When creating handleRequest functions the request or req object comes in first and the response or res object comes second
+
+Switch Case
+    Unit 11 Activity 3
+    
+    Capture a URL the request is made to
+    var path = req.url          (req & res are OBJECTS that have innate properties)
+
+    switch (path)   {
+        case "/":
+            return displayRoot(res);
+        case "/portfolio":
+            return displayPage(res);
+        case:
+            return display404(path,res);
+    }
+
+Status Code
+    404 - some shit is broken, and you're not getting the page, you're looking for
+    200 - everything is gravy and we have successfully receive your response and returning it.
+
+res.writeHead(200, {"Content-Type": "text/html"})
+res.end()  ending a request by sending a specified thing

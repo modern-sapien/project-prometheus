@@ -398,10 +398,13 @@ Here is a list of helpful links regarding videos on BCS
 ## 9.29 Node Server & Express 3/
 [Activity Walkthrough](https://zoom.us/rec/play/Xy8BRV5FQLi3kwT9klQuF6XDqOEITCfPrCd2Yhwq6gU_3NLKfnVUU0-YXq_pGK2xFxyWJ_BBQcUnrJAF.nGhQVgjwXf9owo1I?startTime=1601389982000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
- minute session 
+9 minute session 
     covers: 
     *   Walks through 5 steps of creating a server
     *   A SERVER CAN ONLY LISTEN TO ONE PORT AT A TIME
+    *   Calls two ports, runs two separate servers & transcribes both responses in localhost page's
+    *   @ 4 minutes introduces Unit 11 Activity 3
+            * request object comes in first, response object comes in second
 
 
 ## 9.29 Node Server & Express 4/
