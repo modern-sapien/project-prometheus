@@ -1114,7 +1114,7 @@ LESSON 11 Acitivity 1
 
 5. Handle the Request   function handleRequest(request, response){
                         response.end("This is a test, this only a test")    }
-
+                        EVEN if we don't need request, or response, we have to specify it in the same position.
 
  sub steps
     1. We need to pass our handleRequest functions into the createServer callback (step 3)
@@ -1143,3 +1143,74 @@ Status Code
 
 res.writeHead(200, {"Content-Type": "text/html"})
 res.end()  ending a request by sending a specified thing
+
+## HELPFUL HINTS
+    * shut down a server by calling it again or CTRL+C
+    * localhost:[number]    will display CSS & HTML upon refresh, but changes you make to the server.js file will need to be reset before they can take effect
+    * a handleRequest(req,res)  { res.end("this is working!)} IS THE CONSOLE LOG of servers
+    * __dirname tells you the absolute path of the currently executing file
+    * req.on("data")    when data comes in we call a function 
+    * req.method       makes a GET request
+    * if we want to send something to the server, we have to make a POST request
+
+## POSTMAN
+    POSTMAN helps us problem solve between our code & the server
+
+    The most common types of actions we take using POSTMAN are
+    GET, POST, PUT & DELETe = C.R.U.D methods
+                            create, read, update, delete
+        POSTMAN steps
+            POST request
+            Body
+            Raw
+            JSON
+    If POSTMAN throws an error of "cannot GET" ____ that means that route doesn't exist
+
+## Express.JS
+    is a webframework for Node tha tmakes creating server-side code much simpler.
+        *express allows us to build routes
+            home page, saved page, JSON page
+
+    - EXAMPLE 
+
+    When a user visit a page, the things we see are a GET request
+    
+    When a user interacts with a page by saving, editing they are submitting a POST request
+
+### Nodemon
+    nodemon allows us to run the "watch" script
+    npm run watch 
+    and now our server will automatically update after every save
+
+    to restart it any time you can manually type "rs"
+
+    Nodemon will crash any time there isn't valid code.
+
+    Our FOUR step process is bascially the same, but now we include ROUTES
+
+    1.  express = require("express")    we require express in place of HTTP
+
+    2.  var app = exress()  we are creating a new INSTANCE of express
+        
+    3.  var PORT = 3000     we are calling a PORT
+
+    4.  app.listen(PORT, function() {                       set up our listener
+            console.log("App listening on PORT" + PORT);
+    })
+
+    5.  app.get // app.post("/", function(req,res)  {
+        res.send("Welcome to the Star Wars Page!")
+    })
+
+    This specifies the method type that we WANT to listen for instead of using a handleRequest().
+
+
+## garbage notes on Routes to be reformatted
+    ROUTES MUST COME BEFORE THE LISTENER
+
+
+    We create routes. 
+    A get request must also have a get route
+    We create routes that match the type
+    app.get("/" function(req,res){                              "/" is the PATH // ROOT ROUTE
+        res.send("welcome to the galaxy)        })   

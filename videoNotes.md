@@ -384,8 +384,8 @@ Here is a list of helpful links regarding videos on BCS
     *   Worth watching through if you want to attempt the miniproject solo
     *   @ 25 minutes almost reaches solution & calls for a 3 minute break while class solves  
 
-## 9.29 Node Server & Express 2/10
-[This is MISSING]()
+## 9.29 Node Server & Express 
+[video not provided]()
 
  minute session 
     covers: 
@@ -395,7 +395,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @____ introduces .every()
     *   @___ introduces Unit 11 Activity 05
 
-## 9.29 Node Server & Express 3/
+## 9.29 Node Server & Express 2/9
 [Activity Walkthrough](https://zoom.us/rec/play/Xy8BRV5FQLi3kwT9klQuF6XDqOEITCfPrCd2Yhwq6gU_3NLKfnVUU0-YXq_pGK2xFxyWJ_BBQcUnrJAF.nGhQVgjwXf9owo1I?startTime=1601389982000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
 9 minute session 
@@ -407,16 +407,67 @@ Here is a list of helpful links regarding videos on BCS
             * request object comes in first, response object comes in second
 
 
-## 9.29 Node Server & Express 4/
-[Introduction to Node Servers](video link)
+## 9.29 Node Server & Express 3/9
+[2 Walkthroughs on Basic Node Server Functions](https://zoom.us/rec/play/qqNlQG710O5-wGm2ozE0vGuionosQn834Cz50qcYguBaWB7VKaVD9ZJ70gprEmigHKLweRUe4NW3i5hi.iUh-08sETTFYITzt?startTime=1601390797000&_x_zm_rtaid=d9p02OOWQPqT9fCqFc0nVA.1601426243913.09e7b4f206add98ba11be526e2be44da&_x_zm_rhtaid=109)
 
- minute session 
+6:30 minute session 
     covers: 
-    *   Walkthrough Unit 11 Actitivity 6
-    *   GET requests do not accept data
+    *   Walkthrough Unit 11 Activity 3 - shutting down a server with CTRL+C 
+    *   Walkthrough Unit 11 Actitivity 4 - using fs.readFile()
+            accessing your port through localhost
+    *   @ 4 minutes introduces Unit 11 Activity 5 - readingFiles to display a webpage through multiple routes
+
+## 9.29 Node Server & Express 4/9
+[Deployment of Sites](https://zoom.us/rec/play/IXy4gbm7g2N4iDdYnyYNo3UNHEKN0YIsOKJudJx0AYedoqfB0eiwpHL92g4n9SXopMbt4NOObvXfkfog.AboOC6EbJVlj6V1A?startTime=1601392974000&_x_zm_rtaid=YjbGmD_VS1ieRWp5VZc6Tg.1601469981630.f405747af42d1298c379973eedf98503&_x_zm_rhtaid=546)
+
+16 minute session 
+    covers: 
+    *   Walksthrough Unit 11 Activity 5
+    *   @ 6 minutes uses readFile() to display an HTML file on through the server
+            *   uses path to allow for users to go to different pages       
+    *   @ 10 minutes uses __dirname , related to asbolute path of files & deployment of servers
+    *   
+
+## 9.29 Node Server & Express 5/9
+[Deployment of Sites](https://zoom.us/rec/play/-_4cyNT85wTjHfO5noO-yTX4Ei9e-i0tbtJd2J9FI0qQwiT-fUsNLKOzI4sJBO_ZCsn9t31ybVIjDzdd.Rrz3GIcS0gi9B6up?startTime=1601394631000&_x_zm_rtaid=9qPGElZeRVK93IJCPmsxlA.1601472309870.69a02ec5b742e3a796a58dcdf8cd6cce&_x_zm_rhtaid=711)
+
+7 minute session 
+    covers: 
+    *   Walkthrough Unit 11 Activity 6
+    *   every request we make is a GET request
+            * GET requests does not accept DATA or a BODY
     *   If we want to send information to a server we need to use a POST request
-    *   @ ____ postman introduction/walkthrough
+    *   @ 3 minutes
+
+        Postman introduction/walkthrough for post requests
             1. POST request
             2. Body
             3. Raw
-            4. JSON
+            4. JSON    
+                We can post whatever we want in this format as long as it is in a JSON object
+
+## 9.29 Node Server & Express 6/9
+[POSTMAN & ROUTES](https://zoom.us/rec/play/Z1Ef6u9pic4LoiYowSc5ShNFe6smlCcBhMaTZ3wPhQtR4LIQWNNMZQ-zfLzOdSKOsDH3QkmmZhEEzuCP.QiWy45WEdufsSm0t?startTime=1601397902000&_x_zm_rtaid=mrllU5vSRvCkhf9YwmIE3w.1601495470466.99fd6196ea6807c1652ed568dc889b6f&_x_zm_rhtaid=662)
+
+23 minute session 
+    covers: 
+    *   Introduces homework: note taker application
+    *   @ 4 minutes goes back into discussing POSTMAN
+    *   @ 7 minutes explains higher level informaiton about servers/clients
+            *explains ROUTES
+    *   @ 12 minutes introduces StarWars chain of activities
+            NODEMON
+            app.get("/")            << begining of a GET route
+    *   @ 16 minutes talks about ROUTES
+    *   @ 19 minutes uses POSTMAN to make an API call
+    *   @ 21 minutes introduces Unit 11 Activity 8
+
+## 9.29 Node Server & Express 7/9
+[POSTMAN & ROUTES](https://zoom.us/rec/play/-3VNsMCrnye2FRozppNaOHXYllNgLiz_ElstOyGR00iRTtfaUIXEIWOh7A_iTIw330n-9ND8TXR4gmw.nEdIIX3zA9GT4PsF?startTime=1601400065000&_x_zm_rtaid=mrllU5vSRvCkhf9YwmIE3w.1601495470466.99fd6196ea6807c1652ed568dc889b6f&_x_zm_rhtaid=662)
+
+8 minute session 
+    covers: 
+    *   Walkthrough Unit 11 Activity 8
+    *   @ 4 minutes introduces Unit 11 Activity 9
+    *   : means PATH PARAMETER
+
