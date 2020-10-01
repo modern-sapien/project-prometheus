@@ -1177,6 +1177,12 @@ res.end()  ending a request by sending a specified thing
     
     When a user interacts with a page by saving, editing they are submitting a POST request
 
+    MIDDLEWARE sets up Express.js to handle data parsing and is declared underneath our global variables establishing express & our PORT. Middleware sits in between the request & the routes to parse JSON coming in. 
+        If you don't have this your POST route will not work.
+            -example
+        app.use(express.urlencoded({ extended: true }));
+        app.use(express.json());
+
 ### Nodemon
     nodemon allows us to run the "watch" script
     npm run watch 
@@ -1208,9 +1214,36 @@ res.end()  ending a request by sending a specified thing
 ## garbage notes on Routes to be reformatted
     ROUTES MUST COME BEFORE THE LISTENER
 
-
     We create routes. 
     A get request must also have a get route
     We create routes that match the type
     app.get("/" function(req,res){                              "/" is the PATH // ROOT ROUTE
         res.send("welcome to the galaxy)        })   
+
+    If we are going to have API routes they should return JSON, if we are going to return JSON we should have API routes.
+
+    routeName values in an object has no spaces, so it is easier to return that objects value into an HTML.
+
+    COLLECTION route or RESOURCE route, a route that gives a user acess to many objects or a single object
+
+    When looking at routes, if you see a / followed by a : this means we are using a PATH parameter AKA rec.params
+
+        -example                    UNIT 11 Activity 9
+            app.get("/:character", function(req, res) {
+            var chosen = req.params.character;
+
+            console.log(chosen)         << this would make it so the request appears in our CLI.
+
+            res.end();  });
+    
+    POST route
+    Post request sends in a body           
+        app.post("/api/characters", function(req, res) {
+        var newCharacter = req.body;
+
+        console.log(newCharacter);
+
+        characters.push(newCharacter);
+
+        res.json(newCharacter);
+        });

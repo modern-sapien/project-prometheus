@@ -384,13 +384,11 @@ Here is a list of helpful links regarding videos on BCS
     *   Worth watching through if you want to attempt the miniproject solo
     *   @ 25 minutes almost reaches solution & calls for a 3 minute break while class solves  
 
-## 9.29 Node Server & Express 
-[video not provided]()
+## 9.29 Node Server & Express 2/10
+[MISSING]()
 
- minute session 
+30 minute session 
     covers: 
-    *   What is a server?
-    *   What is a client?
     *   @ ____ minutes uses forEach
     *   @____ introduces .every()
     *   @___ introduces Unit 11 Activity 05
@@ -463,11 +461,31 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 21 minutes introduces Unit 11 Activity 8
 
 ## 9.29 Node Server & Express 7/9
-[POSTMAN & ROUTES](https://zoom.us/rec/play/-3VNsMCrnye2FRozppNaOHXYllNgLiz_ElstOyGR00iRTtfaUIXEIWOh7A_iTIw330n-9ND8TXR4gmw.nEdIIX3zA9GT4PsF?startTime=1601400065000&_x_zm_rtaid=mrllU5vSRvCkhf9YwmIE3w.1601495470466.99fd6196ea6807c1652ed568dc889b6f&_x_zm_rhtaid=662)
+[PATH PARAMETERS](https://zoom.us/rec/play/-3VNsMCrnye2FRozppNaOHXYllNgLiz_ElstOyGR00iRTtfaUIXEIWOh7A_iTIw330n-9ND8TXR4gmw.nEdIIX3zA9GT4PsF?startTime=1601400065000&_x_zm_rtaid=mrllU5vSRvCkhf9YwmIE3w.1601495470466.99fd6196ea6807c1652ed568dc889b6f&_x_zm_rhtaid=662)
 
 8 minute session 
     covers: 
     *   Walkthrough Unit 11 Activity 8
     *   @ 4 minutes introduces Unit 11 Activity 9
     *   : means PATH PARAMETER
+    *   @ 6:45 minutes suggests looking into express.js documentation about EXPRESS ROUTING aka ROUTE PARAMETERS best practices.
+    *   Introduces Unit 11 Activity 10
+    
+## 9.29 Node Server & Express 8/9
+[Collection vs Resource](https://zoom.us/rec/play/cm3No4Imht9qU7swuqQUJOS9SM-0RMwUcunwP5xABkK4e3SLaVxny68D21ZlehCri69x1XtSn_7seLY5.1g_y4mRY9P179xlb?startTime=1601400993000&_x_zm_rtaid=mrllU5vSRvCkhf9YwmIE3w.1601495470466.99fd6196ea6807c1652ed568dc889b6f&_x_zm_rhtaid=662)
 
+8 minute session 
+    covers: 
+    *   Walkthrough Unit 11 Activity 10
+    *   @ 2:30 minutes discusses why we use routeName in our object and how it relates to cleanly calling on objects using path parameters
+    *   Specifiying between a COLLECTION & RESOURCE
+
+## 9.29 Node Server & Express 9/9
+[Middleware & POSTS](https://zoom.us/rec/play/YrPKFkuSNliZgvVgFNNFPgrk9ixhRmzwPaVTZSPf3HKOXqY68eDkhsTJIL9bOzp0OHmlYVUGd7jcfHzw.gtwJq2I4JJfqTF-5?startTime=1601402034000&_x_zm_rtaid=Ykwx6-e5RYaabIzbxXFXIw.1601580068837.bc263489a4046ffc7141a097bd8f5c06&_x_zm_rhtaid=904)
+
+10 minute session 
+    covers: 
+    *   Walkthrough Unit 11 Activity 12
+    *   MIDDLEWARE
+    *   @ 5 minutes walkthrough POST REQUEST with postman
+    
