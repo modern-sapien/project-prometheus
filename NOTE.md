@@ -1232,7 +1232,48 @@ res.end()  ending a request by sending a specified thing
         app.use(express.urlencoded({ extended: true }));
         app.use(express.json());
 
-### Nodemon
+## Notes on Routes
+    ROUTES MUST COME BEFORE THE LISTENER
+
+    We create routes. 
+    A get request must also have a get route
+    We create routes that match the type
+    app.get("/" function(req,res){                              "/" is the PATH // ROOT ROUTE
+        res.send("welcome to the galaxy)        })   
+
+    If we are going to have API routes they should return JSON, if we are going to return JSON we should have API routes.
+
+    routeName values in an object has no spaces, so it is easier to return that objects value into an HTML.
+
+    COLLECTION route or RESOURCE route, a route that gives a user acess to many objects or a single object
+
+    When looking at routes, if you see a / followed by a : this means we are using a PATH parameter AKA rec.params
+
+        -example                    UNIT 11 Activity 9
+            app.get("/:character", function(req, res) {
+            var chosen = req.params.character;
+
+            console.log(chosen)         << this would make it so the request appears in our CLI.
+
+            res.end();  });
+
+## Heroku
+    Video 10.1 Express Mini Project & MySql 3/10
+        *   Heroku only deploys tracked & committed changes.
+        *   heroku create {name-of-project}     < no curlies
+        *   git remote -v     <<    lists out our remotes
+        *   git push heroku master << will display information that may indicate errors
+        *   heroku dashboard of projects you have deployed will display information regarding commit logs, etc.
+        *   "Restart all dynos" aka bouncing an app will refresh all logs that shows us basic startup information regarding the app we are running.
+        *   If Heroku is setup through the CLI, you know have to make sure you are committing and updating in more than one place as you create changes.
+
+        How to Deploy to Heroku to Test Changes
+            * git push heroku ____:master 
+                uses this branch AS IF it were master
+            * heroku logs --tail
+                will reveal the logs we can see in the browser in our terminal
+
+## Nodemon
     nodemon allows us to run the "watch" script
     npm run watch 
     and now our server will automatically update after every save
@@ -1259,29 +1300,35 @@ res.end()  ending a request by sending a specified thing
 
     This specifies the method type that we WANT to listen for instead of using a handleRequest().
 
-
-## garbage notes on Routes to be reformatted
-    ROUTES MUST COME BEFORE THE LISTENER
-
-    We create routes. 
-    A get request must also have a get route
-    We create routes that match the type
-    app.get("/" function(req,res){                              "/" is the PATH // ROOT ROUTE
-        res.send("welcome to the galaxy)        })   
-
-    If we are going to have API routes they should return JSON, if we are going to return JSON we should have API routes.
-
-    routeName values in an object has no spaces, so it is easier to return that objects value into an HTML.
-
-    COLLECTION route or RESOURCE route, a route that gives a user acess to many objects or a single object
-
-    When looking at routes, if you see a / followed by a : this means we are using a PATH parameter AKA rec.params
-
-        -example                    UNIT 11 Activity 9
-            app.get("/:character", function(req, res) {
-            var chosen = req.params.character;
-
-            console.log(chosen)         << this would make it so the request appears in our CLI.
-
-            res.end();  });
     
+## SQL
+    One of the oldest languages that's still in active use.
+    It was created in 1974.
+    This is a way for us to learn how to better use databases
+
+    Relies on a structure based on
+    
+    * Database
+
+    * Table
+    
+    * Column
+    
+    * Row
+
+    MySql Workbench
+    Unit 12 Activity 1 video 10.1 Express Mini Project & MySql 7/10
+        *   MySql has a specific syntax
+                Unit 12 Activity 1
+        *   When creating things in MySql you have to run the code when appropriate by using the lightning bolt & refreshing the schemas to the left tab manually.
+        * snake_case is the preferred naming method
+            VARCHAR(length) = string, max length must be specified
+            INTEGER = number
+            BOOLEAN = true / false   = 1 / 0
+            NOT NULL = must provide a value
+        name VARCHAR(30) NOT NULL <<< variable, type, specifier
+
+        * Must INDICATE what and where things need to go to the computer by running things like "use ___db" "use ____ table", etc. Otherwise you may not have the results you intended.
+
+        * NEVER WRITE a DELETE QUERY without a where clause
+        * ID auto increment skips over ones already in use.

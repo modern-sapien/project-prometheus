@@ -503,8 +503,82 @@ Here is a list of helpful links regarding videos on BCS
     *   @ 46 minutes walks through a GET route
 
 ## 10.1 Express Mini Project & MySql    2/10
-[Heroku Setup](https://zoom.us/rec/play/rz7U3I2_bx5zxAsKdyMt_EYrBo8aC1hMpxO10CKEYeRqhDxaxwofoFYzoYwZQk-w1Mbj0Dw-JiOILzOr.F9N1CFV4_iQfKN5g?startTime=1601560853000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+[Class Structure Review](https://zoom.us/rec/play/rz7U3I2_bx5zxAsKdyMt_EYrBo8aC1hMpxO10CKEYeRqhDxaxwofoFYzoYwZQk-w1Mbj0Dw-JiOILzOr.F9N1CFV4_iQfKN5g?startTime=1601560853000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
 
 12 minute session 
     covers: 
-    *   
+    *   Goes over reasoning behind parking lot
+    *   Refers students to continue to go over Hot Restaurant activity
+
+## 10.1 Express Mini Project & MySql    3/10
+[Heroku Deployment](https://zoom.us/rec/play/MO4WSQDuNpILmTsixHu6askp9o0XmK_IWNP5Bcl-ToqEgDiuCf46BmPg0XVVGihZgsnW5pe4p7YYpHOi.SroE0SEvQLUn30TV?startTime=1601562642000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+30 minute session 
+    covers: 
+    *   Steps for CLI Heroku Deployment
+    *   @ 13 minutes steps for "restart all dynos"
+    *   @ 18 minutes tracking changes through CLI with Heroku & Github
+    *   @ 21 minutes how to test code on a deployed site without pushing to master
+
+## 10.1 Express Mini Project & MySql    4/10
+[MySql Intro](https://zoom.us/rec/play/MsvCGuzijp_G9VXGT-yFQnKS7cuMCWsOdWOKdJvuBSntDRZB-mKY0oFDZupERoGuoV65IUuOFMj7vWZI.T6B4xwF_liuoLzTy?startTime=1601564324000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+10 minute session 
+    covers: 
+    *   MySql overview
+    *   @ 3 minutes MySql visualization
+    *   After visualization, session is just about installing MySql during breakout rooms.
+
+## 10.1 Express Mini Project & MySql    5/10
+[MySql WorkBench](https://zoom.us/rec/play/YbjpAMCi3u1PPir8COODW95Ou1HefA9LPWI5i75sLyToOv3p6QQHcht-RLuEIZ4FBSFIiYjteeA6w9cz.YmZYNml87K1aPaL3?startTime=1601566501000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+6 minute session 
+    covers: 
+    *   MySql Workbench Overview
+    *   Walkthrough of running MySQL workbench 
+
+## 10.1 Express Mini Project & MySql    6/10
+[Lunch Break](https://zoom.us/rec/play/B_VGK1YtOW62V7OTC1gj8ANPIXugpYr6ejm5YVwdtXdsABiXQpEwv3ashMn2pyDWql1X-9-EPV76suah.wNoBydg5t_D8zWCT?startTime=1601567974000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+35 minute session 
+    covers: 
+    *   Phil is the TA assigned to lunch fielding of questions
+
+## 10.1 Express Mini Project & MySql    7/10
+[MySql Workbench](https://zoom.us/rec/play/mVHWn-VqulOdcOQShqdaK03kXjzhnqctnmpoFwIieLJgpq9fBxh3gGEz_uToNAaPFJZsN1Qn84eaaXIJ.hgQvKA4KWkKyl0Hv?startTime=1601570103000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+15 minute session 
+    covers: 
+    *   MySql steps of creating databases, tables & rows
+    *   Unit 12 Activity 1 Walkthrough
+    *   Introduces Unit 12 Activity 2
+
+## 10.1 Express Mini Project & MySql    8/10
+[MySql Activity Review](https://zoom.us/rec/play/mVHWn-VqulOdcOQShqdaK03kXjzhnqctnmpoFwIieLJgpq9fBxh3gGEz_uToNAaPFJZsN1Qn84eaaXIJ.hgQvKA4KWkKyl0Hv?startTime=1601570103000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+15 minute session 
+    covers: 
+    *   MySql steps of creating databases, tables & rows
+    *   Unit 12 Activity 1 Introduction
+    *   Introduces Unit 12 Activity 2
+
+## 10.1 Express Mini Project & MySql    9/10
+[MySql Activity Review](https://zoom.us/rec/play/zmOwtH9yVEu2I3-kB89tnlB8s56FfBQfYwBaTPVA4vDr2nncX8hxlZBeYuYuE_Bv6FWfDvZN3Grhj5Q.ZyJEnoCEe1PsBarW?startTime=1601573442000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+18 minute session 
+    covers: 
+    *   Uncheck Safe Updates so that you can make changes to your queries without be blocked.
+    *   Unit 12 Activity 1 Walkthrough
+    *   Introduces Unit 12 Activity 2
+    *   @ 10 minutes how to delete from a table 
+            brings up importance of IDs & how auto increment works
+
+## 10.1 Express Mini Project & MySql    10/10
+[MySql Activity Review](https://zoom.us/rec/play/7rhfM2_u8qGNHb38FvseJ5NqOMqD4-iHIlIofbASFk5CMuEXpcFbhsGi8tOOyBqLxt72PaYCAB7OOrAu.l51LT60XiG4iUh8r?startTime=1601575894000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+14 minute session 
+    covers: 
+    *   Answers parking lot questions
+    *   Each table should have its own primary key
+    *   READ YOUR ERROR MESSAGES
+    *   @ 7 minutes builds a new database from scratch for pratice
