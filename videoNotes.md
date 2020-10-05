@@ -489,3 +489,22 @@ Here is a list of helpful links regarding videos on BCS
     *   MIDDLEWARE
     *   @ 5 minutes walkthrough POST REQUEST with postman
     
+## 10.1 Express Mini Project & MySql    1/10
+[Express Server Setup](https://zoom.us/rec/play/MmFX7Hnsv1dvvG5bRcGxiVtmNhoYrqIYQny46vqsPMYdL3gnu1CzQiFTpJKB5fdHwbu3NoosIkdlXzWU.CQn_6keQS8zA94vy?startTime=1601557471000&_x_zm_rtaid=vmI-MMWuQCS9Ojku8Emh3Q.1601821149283.1a847fda84e0416fc06ce09ddf7ee909&_x_zm_rhtaid=244)
+
+### CRITICAL TO BASICS OF SERVER SETUP
+51 minute session 
+    covers: 
+    *   Walkthrough steps of setting up an express server
+    *   @ 22 minutes why we use process.env
+    *   @ 26 minutes resource driven APIs have two options; collections & resources
+    *   @ 30 minutes begins using POSTman and working through steps to add POSTed objects into an array in a .json file
+    *   @ 40 minutes returns an object a response to a POST request.
+    *   @ 46 minutes walks through a GET route
+
+## 10.1 Express Mini Project & MySql    2/10
+[Heroku Setup](https://zoom.us/rec/play/rz7U3I2_bx5zxAsKdyMt_EYrBo8aC1hMpxO10CKEYeRqhDxaxwofoFYzoYwZQk-w1Mbj0Dw-JiOILzOr.F9N1CFV4_iQfKN5g?startTime=1601560853000&_x_zm_rtaid=MiZUAfkETfKB3k8wjthOaQ.1601856394143.693de848a2c80fe4d661ce61cc89cae3&_x_zm_rhtaid=311)
+
+12 minute session 
+    covers: 
+    *   

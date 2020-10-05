@@ -1167,9 +1167,58 @@ res.end()  ending a request by sending a specified thing
     If POSTMAN throws an error of "cannot GET" ____ that means that route doesn't exist
 
 ## Express.JS
-    is a webframework for Node tha tmakes creating server-side code much simpler.
+    is a webframework for Node that makes creating server-side code much simpler.
         *express allows us to build routes
-            home page, saved page, JSON page
+
+   ### Steps for Creating an Express Server
+    Video 10.1 1/10
+    
+    Basic Setup
+    1. Create a server.js
+    2. Run `npm init -y`
+    3. Run `npm install express`
+
+    Build Express Server
+    1. Require Express
+    2. Create an instance of Express
+    3. Add a port to listen on (allow for heroku deployment)
+            process.envPORT || ______
+    4. Listen on port
+    5. If we want to include Post routes, we must include Middleware
+
+    6. Error Handling
+
+    Setup Routes
+        Get Routes
+            1. Use `app.get`
+            2. Specify the route path (should include resource type)
+            3. Retrieve the data
+            4. Send response to teh user.
+
+        Post Routes
+            *Post routes are not "collections"
+            1. Use `app.post`
+            2. Specify the route path (should include resource type)
+            3. Handle the incoming POST body
+            4. Save the data
+            5. Send response to the user.
+
+        To Test POST Routes
+            1. Go to Postman
+            2. Select POST request from the dropdown
+            3. Select Body from the menu
+            4. Select `raw`
+            5. Select JSON
+                Must be wrapped in valid JSON, keys are strings
+
+        BONUS:
+            Install Nodemon
+                ``` bash
+                npm install nodemon -g      ** to run on globally machine
+                ```
+                ``` javascript
+                "dev": "nodemon server.js"     ** to include in scripts
+                ```
 
     - EXAMPLE 
 
@@ -1236,14 +1285,3 @@ res.end()  ending a request by sending a specified thing
 
             res.end();  });
     
-    POST route
-    Post request sends in a body           
-        app.post("/api/characters", function(req, res) {
-        var newCharacter = req.body;
-
-        console.log(newCharacter);
-
-        characters.push(newCharacter);
-
-        res.json(newCharacter);
-        });
