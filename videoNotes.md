@@ -582,3 +582,16 @@ Here is a list of helpful links regarding videos on BCS
     *   Each table should have its own primary key
     *   READ YOUR ERROR MESSAGES
     *   @ 7 minutes builds a new database from scratch for pratice
+
+## 10/23  Progressive Web Apps 1/
+[Mongo Db Review](1)
+
+ minute session
+    covers:
+    *   Goes over postman collections
+    *   @ ____ minutes using populate to pull down information
+    *   What is the relationship between users/books/authors
+            @___ minutes visualization
+    *   Mongo DB is not designed for many to many relationships
+    *       @___ minutes visualization
+    *   @ ___ minutes incorporates users in a book/libary situation

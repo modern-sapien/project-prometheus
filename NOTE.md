@@ -335,6 +335,38 @@ Step 3. append to existing element
         ultraDrinkList.appendChild(newDrinkPEl);
         }
 
+
+## NOTES ON HTTP
+
+    Hyper Text Transfer Protocol
+
+    Communication between web servers & clients
+
+    HTTP Requests / Responses
+        Server response/ cycle
+            Server takes in requests & sends back in response
+            Sends a status code with the response
+        Includes header & body
+
+    Different routes, with different urls and different methods
+        Should do different things
+
+    Headers reveal data related to the client and the server; content type, powerered by, connection, etc.
+
+HTTP Status Codes
+
+    1.XX    Information             1.XX Informational
+    
+    2.XX    Success                 4.XX Client Error
+    200     Success                 400 Bad Request
+    201     Created                 401 Unauthorized
+    204     No Content              404 Not Found
+
+    3.XX    Redirection             5.XX Server Error
+    304     Not Modified            500 Internal Server Error
+
+
+
 ##  ||||||||||||||||||||||||||||||||||||||
 ## THIRD PARTY APIs
 ##  ||||||||||||||||||||||||||||||||||||||
@@ -509,6 +541,7 @@ URL Encoding
 ## ===============
 ## Node.JS  ======
 ## ===============
+For futher node.js resources FIND MY REPO nodejsbasics.js, it has files to run and manipulate that will help you garner a better understanding of node.js
 
 You can no longer accept user inputs through alerts, prompts, confirms.
 We have to use process.argv to accept user inputs from the command line.    Any user input will begin at process.argv[2].
@@ -1238,7 +1271,8 @@ res.end()  ending a request by sending a specified thing
     We create routes. 
     A get request must also have a get route
     We create routes that match the type
-    app.get("/" function(req,res){                              "/" is the PATH // ROOT ROUTE
+    app.get("/" function(req,res){                              
+        "/" is the PATH // ROOT ROUTE
         res.send("welcome to the galaxy)        })   
 
     If we are going to have API routes they should return JSON, if we are going to return JSON we should have API routes.
@@ -1256,6 +1290,15 @@ res.end()  ending a request by sending a specified thing
             console.log(chosen)         << this would make it so the request appears in our CLI.
 
             res.end();  });
+
+    RESTFUL API STANDARDS
+    KEEP API restful by not changing the url too much
+    
+    GET /todos              Get todos
+    GET /todos/1            Get todo with id of 1
+    POST /todos             Add a todo
+    PUT /todos/1            Update todo with ID of 1
+    DELETE /todos/1         Delete todo with ID of 1
 
 ## Heroku
     Video 10.1 Express Mini Project & MySql 3/10
@@ -1332,3 +1375,20 @@ res.end()  ending a request by sending a specified thing
 
         * NEVER WRITE a DELETE QUERY without a where clause
         * ID auto increment skips over ones already in use.
+
+## MONGO DB
+    NoSQL database
+        Collections >> Documents 
+        Similar format to JSON data
+    Mongo DB is not designed for many to many relationships it is designed for one to many. 
+
+## NPM packages
+
+### dotenv
+    Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve Factor App methodology.
+
+### morgan
+    HTTP request logger middleware
+
+### colors
+    An npm package that allows you colorize "results" in the console.
