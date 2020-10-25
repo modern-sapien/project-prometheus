@@ -1300,6 +1300,8 @@ res.end()  ending a request by sending a specified thing
     PUT /todos/1            Update todo with ID of 1
     DELETE /todos/1         Delete todo with ID of 1
 
+    When running routes after you've written out an API url with query parameters, console.log(req.query); to see what is returned and if it matches your models.
+
 ## Heroku
     Video 10.1 Express Mini Project & MySql 3/10
         *   Heroku only deploys tracked & committed changes.
@@ -1382,13 +1384,160 @@ res.end()  ending a request by sending a specified thing
         Similar format to JSON data
     Mongo DB is not designed for many to many relationships it is designed for one to many. 
 
+## Mongoose
+    * Populate
+    * Virtuals
+    Virtuals are a non-stored data value that allow us to access & display information or data that isn't a part of our model.
+    
+    -example
+    
+    },{
+    toJSON: {virtuals: true},
+    toObject: {virtuals: true}
+    }
+
+    // Reverse populate with virtuals
+    BootcampSchema.virtual("courses", {
+    ref: "Course",
+    localField: "_od",
+    foreignField: "bootcamp",
+    justOne: false,
+    })
+    
+    * Static
+    Static methods are called on the actual model, versus a method you create from a model.
+
+## PWA
+    3 things we need for a progessive web app
+        1. Manifest
+        2. Service Worker
+        3. Cache
+
+## Web Pack
+    * Minifies and compresses one single file and then all imports all of the files that the current file needs.
+    * Accepts plugins, has a searchable documentation with list of plugins taht works with it.
+
+## React
+### Getting started  
+    npx create-react-app _____ name
+
+    NPM vs NPX download me versus download & execute
+    --use-npm means that the primary package downloader is NPM
+
+### Notes on React
+    *   Server environment that renders to your user
+    *   Client Side Javascript Library
+    *   Created and mainted by facebook
+    *   Used to build dynamic user interfaces
+    *   Component based
+    *   Is technically a library, but is more similar to frameworks
+    *   robots.txt lets web crawlers know what the application is about
+    *   app.css is main on default, index.css is support
+    *   WHAT THE HELL IS USE "STRICT MODE"
+    *   lifecycle methods????
+            componentDidMount
+            componentDidUpdate
+    *   When using hooks, you always want to give the first element of your destructured array and the second element is what you use to set it up.
+
+    const [name, setName] = useState(")
+    useEffect(() => {
+        setName("Phil")
+    }, [])
+
+    Fragmets versus Parent Containers
+    * Replace a parent container with a fragment // angle brackets also work
+        <Fragment>
+        <h1> This is where your content goes </h1> 
+        </Fragment>
+
+    Benefits of React
+    *   Build a powerful Frontend/UI
+    *   Code organization
+    *   Everything is built on individual components
+    *   Uses a "virtual dom"
+
+    Component Based UI
+    *   is a function that has a return statement in it
+    *   Look at each element as individual components
+    *   Organized by component easier to understand as UI
+    *   Can have "props" & "states"
+
+    JSX
+        * is a special syntax which makes these structures easier to write
+        * JSX comes with the full power of javascript within braces inside JSX. 
+        * : is else
+
+    Components and Props
+    *   Your components are nested functions inside of your main function (app.js).
+        * Inside of components, you have props. Props are empty objects you can any property you would like.
+        The way you give object proprties 
+    *   "Root" everything is embedded in the main root component in HTML
+    *   Components can be functions or classes
+    *   Each React element is a Javascript object that you can store in a viarable or pass around in your program.
+    *   Can repeat components as many times as you like with different information.
+    *   Props are properties you can pass into components from outside.
+
+    *   PropTypes
+            array, bool, func, number, object, string, symbol
+
+
+    React.Component subclasses:
+        React component class or React component type
+            *  component takes in parameters called "props" and returns a hierarchy of views to display via the render method.
+            *  render method returns a description of what you want to see on the screen. React takes the description and displays the result
+            *  render returns a REACT ELEMENT
+                *  react element is a lightweight description of what to render
+            * Class components can have state and functional components can also if you use Hooks.
+            
+        ReactDOM 
+        "What do you want to render?"
+        "Where do you want to render?"
+
+    State and Lifecycle
+        * Hooks allow us to have functional components
+        * State is an object like props extends from being a component.
+
+    NPM versus NPX
+        * We can run it without installing it using NPX
+        * Upon installing comes with React and React Dom which is for manipulating web based applications, not native applications.
+        * React-script allows you to have webpacks, service workers, etc. work without having to set it up yourself, by running eject you have 
+
 ## NPM packages
 
 ### dotenv
     Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve Factor App methodology.
 
+### express-fileupload
+    Simple express middleware for uploading files
 ### morgan
     HTTP request logger middleware
 
 ### colors
     An npm package that allows you colorize "results" in the console.
+
+### Babel
+    Babel is a tool that helps you write code in the latest version of JavaScript. When your supported environments don't support certain features natively, Babel will help you compile those features down to a supported version.
+
+### bcrypt
+    is a password-hashing package
+    * salt rounds determine the complexit of the hash
+
+### json web token
+
+
+### cookie-parser
+    Parse cookie header and populate req.cookies with an object keyed by the cookie names. 
+
+### node mailer
+    For sending emails from within Node.js
+
+### eslint
+    Linter that is automatically turned on React applications
+
+### babbel
+    Transpiler
+
+### commander
+    creates a whole environment from an NPX install
+
+

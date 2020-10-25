@@ -595,3 +595,78 @@ Here is a list of helpful links regarding videos on BCS
     *   Mongo DB is not designed for many to many relationships
     *       @___ minutes visualization
     *   @ ___ minutes incorporates users in a book/libary situation
+
+## 10/23  Progressive Web Apps 2/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   React uses Web Pack, important to know
+    *   Talks about the importance of Web Packs introduces Unit 18 Activity 15
+    *
+
+## 10/23  Progressive Web Apps 3/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   Runs through building and implementing webpack
+    *   npm run build
+    *   Unit 18 Activity 16 calculator function
+    *   @ ____ minutes introduces Unit 18 Activity 17
+    *   Chart.js
+    *   Webpack bundle analyzer
+    2 things to know
+        * Web Pack can minify a single JS file and all the files it uses
+        * Web Pack can anaylze plugins
+    *   @__ minutes introduces Unit 18 Activity 18
+
+## 10/23  Progressive Web Apps 4/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   @__ minutes introduces Unit 18 Activity 18
+    *   @___ minutes talks about "hooks" and using a pre-start
+    *   PWA documentation (https://github.com/arthurbergmz/webpack-pwa-manifest)
+    *   @___ minutes refers to import/export ES6 import {   } export function
+    *   @___ introduces Unit 18 Activity 20
+
+## 10/23  Progressive Web Apps 5/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   @__ minutes reviews Unit 18 Activity 20
+    *   
+
+## 10/23  Progressive Web Apps 6/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   Chunking with web pack
+
+## 10/23  Progressive Web Apps 7/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   Comes back from chunking
+
+## 10/23  Progressive Web Apps 8/
+[Intro Session](1)
+
+ minute session
+    covers:
+    *   goes over homework 18
+    *   What do I need? Where do I find it?
+
+## 10/23  Progressive Web Apps 9/
+[Ending Review Session](1)
+
+ minute session
+    covers:
+    *   working on the user/author/book example from the AM
+    *   @___ minutes visualization of encryption & hashing
+    *   @___ minutes hashes a password before entering a data base using bcrypt
