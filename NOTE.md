@@ -1469,12 +1469,17 @@ res.end()  ending a request by sending a specified thing
 
     Components and Props
     *   Your components are nested functions inside of your main function (app.js).
-        * Inside of components, you have props. Props are empty objects you can any property you would like.
-        The way you give object proprties 
-    *   "Root" everything is embedded in the main root component in HTML
+        * Inside of components, you have props. Props are empty objects you can give any property you would like.
+    
+    *   Component level state means that states are contained within a single component. 
+    
+    *   "Root" everything is embedded in the main root component in HTML Whatever it is you decide that to be, using a default build that will be "root"
+
     *   Components can be functions or classes
-    *   Each React element is a Javascript object that you can store in a viarable or pass around in your program.
+    *   Each React element is a Javascript object that you can store in a variable or pass around in your program.
+
     *   Can repeat components as many times as you like with different information.
+    
     *   Props are properties you can pass into components from outside.
 
     *   PropTypes
