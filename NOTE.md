@@ -1418,6 +1418,12 @@ res.end()  ending a request by sending a specified thing
     * Accepts plugins, has a searchable documentation with list of plugins taht works with it.
 
 ## React
+    An open-source Javascript Library developed by Facebook for developing UIs.
+    Developed to build a large app with rapidly changing data.
+    Component-based: UI elements are broken into self contained components.
+
+    React relies on a virtual dom manipulation which means that it doesn't have to reload or update everything when we just want to change one thing.
+
 ### Getting started  
     npx create-react-app _____ name
 
@@ -1427,7 +1433,7 @@ res.end()  ending a request by sending a specified thing
 ### Notes on React
     *   Server environment that renders to your user
     *   Client Side Javascript Library
-    *   Created and mainted by facebook
+    *   Created and maintained by facebook
     *   Used to build dynamic user interfaces
     *   Component based
     *   Is technically a library, but is more similar to frameworks
@@ -1444,7 +1450,7 @@ res.end()  ending a request by sending a specified thing
         setName("Phil")
     }, [])
 
-    Fragmets versus Parent Containers
+    Fragments versus Parent Containers
     * Replace a parent container with a fragment // angle brackets also work
         <Fragment>
         <h1> This is where your content goes </h1> 
@@ -1457,6 +1463,8 @@ res.end()  ending a request by sending a specified thing
     *   Uses a "virtual dom"
 
     Component Based UI
+    *   logically decompose a UI into unique parts
+    *   easily reuse parts without re-coding
     *   is a function that has a return statement in it
     *   Look at each element as individual components
     *   Organized by component easier to understand as UI
@@ -1472,16 +1480,11 @@ res.end()  ending a request by sending a specified thing
         * Inside of components, you have props. Props are empty objects you can give any property you would like.
     
     *   Component level state means that states are contained within a single component. 
-    
     *   "Root" everything is embedded in the main root component in HTML Whatever it is you decide that to be, using a default build that will be "root"
-
     *   Components can be functions or classes
     *   Each React element is a Javascript object that you can store in a variable or pass around in your program.
-
     *   Can repeat components as many times as you like with different information.
-    
     *   Props are properties you can pass into components from outside.
-
     *   PropTypes
             array, bool, func, number, object, string, symbol
 
@@ -1501,6 +1504,7 @@ res.end()  ending a request by sending a specified thing
     State and Lifecycle
         * Hooks allow us to have functional components
         * State is an object like props extends from being a component.
+        * State is mainly just a function that will run when the component runs.
 
     NPM versus NPX
         * We can run it without installing it using NPX
@@ -1545,4 +1549,5 @@ res.end()  ending a request by sending a specified thing
 ### commander
     creates a whole environment from an NPX install
 
-
+### jsonwebtoken
+    don't send anything sensitive back in your JWT

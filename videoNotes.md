@@ -670,3 +670,115 @@ Here is a list of helpful links regarding videos on BCS
     *   working on the user/author/book example from the AM
     *   @___ minutes visualization of encryption & hashing
     *   @___ minutes hashes a password before entering a data base using bcrypt
+
+## 10/26  Intro to React, Components and JSX 1/
+[User Authorization](1)
+
+ minute session
+    covers:
+    *   Going over user authorization
+    *   Difference between user authorization and authentication?
+        "Who is your daddy? What does he do?
+    *   ___ minute using bcrypt compare to check if password entered equals hashed password
+    *   _____ explains why he was receiving an array
+    *   @ minutes install jsonwebtokens
+
+## 10/26  Intro to React, Components and JSX 2/
+[New Unit Introduction](1)
+
+ minute session
+    covers:
+    *   Housekeeping and introduction to new unit
+    *   Introduces Unit 19 Activity 1, checking documentation
+
+## 10/26  Intro to React, Components and JSX 3/
+[React Boiler Plate](1)
+
+ minute session
+    covers:
+    *   Reviews Unit 19 Activity 1
+    *   Walkthrough of Unit 20 Activity 2, boilerplate explanation
+    *   Walkthrough of switching branches to save data
+
+## 10/26  Intro to React, Components and JSX 4/
+[React Boiler Plate](1)
+
+ minute session
+    covers:
+    *   Introduces Unit 19 Actitivity 3
+
+## 10/26  Intro to React, Components and JSX 5/
+[React Boiler Plate](1)
+
+ minute session
+    covers:
+    *   Walthrough of Unit 19 Activity 3
+    *   Goes over JSX requirements of returning a parent element or JSX fragment <> </>
+    *   Using TitleCase for React files
+    *   Function name should match the file name
+    *   Review Unit 19 Activity 4
+    *   When writing JSX class becomes className
+    *   Each tag requires a closing tag
+    *   @ ___ minutes explains or = HTMLfor
+
+## 10/26  Intro to React, Components and JSX 6/
+[Lunch](1)
+
+ minute session
+    covers:
+    *   Break for lunch doodz!
+
+## 10/26  Intro to React, Components and JSX 6/
+### Review this one
+[React & Install Bootstrap](1)
+
+ minute session
+    covers:
+    *   Unit 19 Activity 5
+    *   When making a react component file label it .jsx
+    *   Brings in components from bootstrap
+    *   Walkthrough Unit 19 Activity 6
+
+## 10/26  Intro to React, Components and JSX 7/
+[Inline Styling](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 19 Activity 7
+    *   Keeping like .js files with .css in folders in components.
+    *   @ ____ minutes in line styling with style objects
+    *   @____ minutes introduces Unit 19 Activity 9
+
+## 10/26  Intro to React, Components and JSX 8/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Reviews components & props
+        Props are functions attributes you can pass to componenets
+    *   Props are immutable, you cannot change them.
+    *   We can change props from the parent
+    *   Props are always an object
+    *   Props.children is anything between the opening and closing tag
+
+## 10/26  Intro to React, Components and JSX 9/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 19 Activity 11
+    *   Uses props to create a switch case
+    *   @___ minutes removes props in a component by destructuring
+    *   @___ minutes uses whiteboard
+    *   Things to know from class today
+        1. React uses components.
+        2. React components return JSX.
+        3. The benefit of React components is reusability.
+        4. Props are what make components re-usable.
+
+## 10/26  Intro to React, Components and JSX 10/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Covers how to import outside packages into React
