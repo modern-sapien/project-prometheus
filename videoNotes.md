@@ -782,3 +782,106 @@ Here is a list of helpful links regarding videos on BCS
  minute session
     covers:
     *   Covers how to import outside packages into React
+
+## 10/26  Intro to React, Components and JSX pt.2 1/
+[Working through API-architecture example](1)
+
+ minute session
+    covers:
+    *   Authentication and Authorization
+    *   @___ minutes how to use .env to hide passwords
+    *   @___ discusses what routes to protect using authorization
+    *   @___ minutes uses _id to add id's to books
+
+## 10/26  Intro to React, Components and JSX pt.2 2/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Review of React known so far
+    *   Webpack is what gives us hot reloading
+    *   Using props to hand properties into navigation
+    *   {} is a JSX expression
+    *   Props make components re-usable
+
+## 10/26  Intro to React, Components and JSX pt.2 3/
+[Mapping in React](1)
+
+ minute session
+    covers:
+    *   Review Unit 19 Activity 12
+    *   Walkthrough Unit 19 Activity 13, and mapping over a list
+    *   @____ minutes bring in information from a JSON file import
+    *   @____ minutes Unit 19 Activity 13
+
+## 10/26  Intro to React, Components and JSX pt.2 4/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Unit 19 Activity 13 review with mapping
+    *   React virtual Dom - only changes individual pieces of the dom that changes individual pieces in the virtual dom.
+    *   Use of Keys to assign IDs that remove warnings and will help us target in the future.
+### state explanation
+    *   @___ minutes React dev tools, best way to see what data you are receiving via props.
+    *   @___ minutes introduces Unit 20 Activity
+    *   Functional components versus stateless components
+        *   You will only ever have one state per class 
+    
+    Set state hooks into the React life cycle
+    Unit 19 Activity 14
+
+    variable type of state is an object
+    limitless amount of keys
+    * NEVER EVER NEVER DIRECTLY MUTATE STATE
+    * @___ minutes visualization of how states are adjusted in React a cycle 
+
+## 10/26  Intro to React, Components and JSX pt.2 5/
+[Reviewing Components](1)
+
+ minute session
+    covers:
+    *   Unit 19 Activity 15 review with mapping
+    *   Builds a click counter from scratch
+    *   Reusability!! through passing in functions as props
+    *   @___ minutes difference between class & state
+    *   We use class when we need state
+    *   Introduces Unit 19 Activity 16
+
+## 10/26  Intro to React, Components and JSX pt.2 6/
+[Deleting components](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 19 Activity 16
+    *   Sometimes click event listeners will auto click, we need to wrap them in a callback function for them not to trigger
+    *   @___ minutes filters to remove a friend by id
+    *   If we want to store data, state is the place for us.
+    *   No real difference between a class and functional component to us currently.
+    * You can pass functions down via props and pass information back up via parameters.
+    * Reviews Unit 19 Activity 17 
+        * class components are state componenets regardless if they explicity have state
+        * onChange event listener
+    * @___ computed property names & setting state through the DOM
+    * Introduces Unit 19 Activity 18
+
+## 10/26  Intro to React, Components and JSX pt.2 7/
+[Limiting form inputs](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 19 Activity 18 - LIMITING FORM INPUTS IN REACT
+    *   Name you assign the value must equal to the key on state
+    *   Overview of what we know and what we are building toward
+            *   Props and passing props from a parent to a child, making components reusable
+            *   Mapping, taking repeated components and iterating over them and rendering dynamically
+            *   Filter
+            *   The concept of state, class stateful components as opposed to stateless function dumb components.
+
+## 10/26  Intro to React, Components and JSX pt.2 8/
+[After Class Burger App](1)
+
+ minute session
+    covers:
+    *   rebuilding a burger application in React
+    *   wrap a click event in a callback function to prevent auto clicking.

@@ -1470,14 +1470,15 @@ res.end()  ending a request by sending a specified thing
     *   Organized by component easier to understand as UI
     *   Can have "props" & "states"
 
-    JSX
+### JSX
         * is a special syntax which makes these structures easier to write
         * JSX comes with the full power of javascript within braces inside JSX. 
         * : is else
 
-    Components and Props
+### Components and Props
     *   Your components are nested functions inside of your main function (app.js).
         * Inside of components, you have props. Props are empty objects you can give any property you would like.
+    *   propTypes are validations for properties that a component should have. We can set the type and set whether they are required or not.
     
     *   Component level state means that states are contained within a single component. 
     *   "Root" everything is embedded in the main root component in HTML Whatever it is you decide that to be, using a default build that will be "root"
@@ -1489,7 +1490,7 @@ res.end()  ending a request by sending a specified thing
             array, bool, func, number, object, string, symbol
 
 
-    React.Component subclasses:
+###  React.Component subclasses:
         React component class or React component type
             *  component takes in parameters called "props" and returns a hierarchy of views to display via the render method.
             *  render method returns a description of what you want to see on the screen. React takes the description and displays the result
