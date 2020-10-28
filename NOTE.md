@@ -1480,12 +1480,149 @@ res.end()  ending a request by sending a specified thing
         * Inside of components, you have props. Props are empty objects you can give any property you would like.
     *   propTypes are validations for properties that a component should have. We can set the type and set whether they are required or not.
     
-    *   Component level state means that states are contained within a single component. 
-    *   "Root" everything is embedded in the main root component in HTML Whatever it is you decide that to be, using a default build that will be "root"
+    *   Component level state means that states are contained within a single component.
+    *    You can use a constructor to add state, but basically it is just a function that runs when the component runs, but must use super to bring it in.
+        -example
+````javascript
+        constructor() {
+            super();
+            this.state = {
+                id: "id",
+                username: "fireskull"
+            }
+        }
+````
+    But you can do the same thing without the extra steps by just utilizing
+        - example
+````javascript
+            state = {
+                id: "id",
+                username: "fireskull"
+            }
+````
     *   Components can be functions or classes
-    *   Each React element is a Javascript object that you can store in a variable or pass around in your program.
     *   Can repeat components as many times as you like with different information.
-    *   Props are properties you can pass into components from outside.
+    *   Default props can be placed in components above the render, they will be overwritten any props coming from a parent component.
+    *   Props are passed from parent components to child components
+
+````javascript
+            -example
+            App.js
+            <Navbar name="John" />
+
+            Navbar.js
+                static defaultProps = {username: "User"}
+            render() {
+            <h1>{this.props.username}</h1>
+            }
+````
+    If you want to clean up the above example you would use destructuring to pull in the values you would like.
+
+````javascript
+    render() {
+        const {login, username, html } = this.state
+    
+    return (
+        <h1>{username}</h1>
+    )
+    }
+````
+### Mapping through an array
+    Something that is critically important to being able to access the full functionality of React is to map through an array of objects to create new displays.
+
+    Here is a functional example of how you would successfully do that this would need to be imported into your App.js file as <Users />, but would allow you to see all of the Users' login names.
+
+    -example
+
+````javascript 
+export class Users extends Component {
+    state = {
+        users: [{
+            id: 1,
+            login: "mojombo",
+            avatar_url: "https://avatars0.githubusercontent.com/u/1?v=4",
+            htm_url: "https://api.github.com/mojombo",
+          },
+          {
+            id: 2,
+            login: "defunkt",
+            avatar_url: "https://avatars0.githubusercontent.com/u/2?v=4",
+            htm_url: "https://api.github.com/defunkt",
+          },
+          {
+            id: 3,
+            login: "pjhyett",
+            avatar_url: "https://avatars0.githubusercontent.com/u/3?v=4",
+            htm_url: "https://api.github.com/pjhyett",
+          }
+        ]
+    }
+    render() {
+        return (
+            <div>
+                {this.state.users.map(user => (
+                    <div key={user.id}>{user.login}</div>
+                ))}
+            </div>
+        )
+    }
+}
+````
+
+    If you aren't using state with your components then it makes more sense to use stateless functional components.
+
+### THIS component
+````javascript 
+class UserItem extends Component {
+  render() {
+      // props passed between render and return
+      const {login, avatar_url, htm_url} = this.props.user
+    return (
+      <div className="card text-center">
+        <img
+          src={avatar_url}
+          alt=""
+          className="round-img"
+          style={{ width: "80px" }}
+        />
+        <h3>{login}</h3>
+        <div>
+          <a href={htm_url} className="btn btn-dark btn-md my-1">
+              More
+          </a>
+        </div>
+      </div>
+    );
+  }
+}
+````
+### stateless functional componenet
+
+````javascript
+const UserItem = props => {
+    // props get passed above the return
+    const {login, avatar_url, htm_url} = props.user
+    return (
+      <div className="card text-center">
+        <img
+          src={avatar_url}
+          alt=""
+          className="round-img"
+          style={{ width: "80px" }}
+        />
+        <h3>{login}</h3>
+        <div>
+          <a href={htm_url} className="btn btn-dark btn-md my-1">
+              More
+          </a>
+        </div>
+      </div>
+    );
+};
+
+export default UserItem;
+````
+
     *   PropTypes
             array, bool, func, number, object, string, symbol
 
@@ -1505,7 +1642,6 @@ res.end()  ending a request by sending a specified thing
     State and Lifecycle
         * Hooks allow us to have functional components
         * State is an object like props extends from being a component.
-        * State is mainly just a function that will run when the component runs.
 
     NPM versus NPX
         * We can run it without installing it using NPX
