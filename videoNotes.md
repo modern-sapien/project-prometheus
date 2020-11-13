@@ -783,7 +783,7 @@ Here is a list of helpful links regarding videos on BCS
     covers:
     *   Covers how to import outside packages into React
 
-## 10/26  Intro to React, Components and JSX pt.2 1/
+## 10/27  Intro to React, Components and JSX pt.2 1/
 [Working through API-architecture example](1)
 
  minute session
@@ -793,7 +793,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @___ discusses what routes to protect using authorization
     *   @___ minutes uses _id to add id's to books
 
-## 10/26  Intro to React, Components and JSX pt.2 2/
+## 10/27  Intro to React, Components and JSX pt.2 2/
 [Reviewing Components](1)
 
  minute session
@@ -804,7 +804,7 @@ Here is a list of helpful links regarding videos on BCS
     *   {} is a JSX expression
     *   Props make components re-usable
 
-## 10/26  Intro to React, Components and JSX pt.2 3/
+## 10/27  Intro to React, Components and JSX pt.2 3/
 [Mapping in React](1)
 
  minute session
@@ -814,7 +814,7 @@ Here is a list of helpful links regarding videos on BCS
     *   @____ minutes bring in information from a JSON file import
     *   @____ minutes Unit 19 Activity 13
 
-## 10/26  Intro to React, Components and JSX pt.2 4/
+## 10/27  Intro to React, Components and JSX pt.2 4/
 [Reviewing Components](1)
 
  minute session
@@ -836,7 +836,7 @@ Here is a list of helpful links regarding videos on BCS
     * NEVER EVER NEVER DIRECTLY MUTATE STATE
     * @___ minutes visualization of how states are adjusted in React a cycle 
 
-## 10/26  Intro to React, Components and JSX pt.2 5/
+## 10/27  Intro to React, Components and JSX pt.2 5/
 [Reviewing Components](1)
 
  minute session
@@ -848,7 +848,7 @@ Here is a list of helpful links regarding videos on BCS
     *   We use class when we need state
     *   Introduces Unit 19 Activity 16
 
-## 10/26  Intro to React, Components and JSX pt.2 6/
+## 10/27  Intro to React, Components and JSX pt.2 6/
 [Deleting components](1)
 
  minute session
@@ -865,7 +865,7 @@ Here is a list of helpful links regarding videos on BCS
     * @___ computed property names & setting state through the DOM
     * Introduces Unit 19 Activity 18
 
-## 10/26  Intro to React, Components and JSX pt.2 7/
+## 10/27  Intro to React, Components and JSX pt.2 7/
 [Limiting form inputs](1)
 
  minute session
@@ -878,10 +878,585 @@ Here is a list of helpful links regarding videos on BCS
             *   Filter
             *   The concept of state, class stateful components as opposed to stateless function dumb components.
 
-## 10/26  Intro to React, Components and JSX pt.2 8/
+## 10/27  Intro to React, Components and JSX pt.2 8/
 [After Class Burger App](1)
 
  minute session
     covers:
     *   rebuilding a burger application in React
-    *   wrap a click event in a callback function to prevent auto clicking.
+    *   @____ minutes wrap a click event in a callback function to prevent auto clicking.
+
+## 10/28  React State 1/
+[After Class Burger App](1)
+
+ minute session
+    covers:
+    *   working through user authorization
+    *   @___ minutes walks through looping through headers to obtain authorization and then access user id through that to create a post request.
+    *   @____ minutes findOneAndUpdate in mongoose
+
+## 10/28  React State 2/
+[After Class Burger App](1)
+
+ minute session
+    covers:
+    *   Talking about Recoil.js and the value of going to Meetups
+    *   The difference between Components and Stateless Functional Components is STATE
+    *   Never directly mutate state
+    *   @___ walks through step by state how we change state
+    *   @___ builds a form to 
+        Needs
+            * name
+            * value
+            * onChange
+    *   @____ minutes when building forms proper naming conventions. Use names that will match your database
+
+    *   @____ minutes introduces Unit 19 Activity 19
+           @___ minutes React LifeCycle Methods
+           componentDidMount is a React Lifecycle Method
+           discusses side effects
+    ***   review life cycle methods ****
+
+    *   @___ minutes introduces Unit 10 Activity 19
+
+## 10/28  React State 3/
+[After Class Burger App](1)
+
+ minute session
+    covers:
+    *   Review Unit 19 Activity 20
+    *   Using axios to make an API call
+    *   Conditional rendering
+    *   Introduces Unit 19 Activity 21
+            CONDITIONAL RENDERING
+
+## 10/28  React State 4/
+[After Class Burger App](1)
+
+ minute session
+    covers:
+    *   Conditional Rendering
+    *   Review Unit 19 Activity 21
+    *   Uses TERNARY for conditional rendering
+    *   @____ does bonus for Unit 19 Activity 21
+
+## 10/28  React State 5/
+[React Router](1)
+
+ minute session
+    covers:
+    *  Using React Router
+    *  Using params with react router
+    *  With react router we do not want to use "a tags with internal links
+    *  @___ minutes visualization of react router
+    *  Use Links for internal links only 
+        - Links are components!
+        - We can build or import components from third party packages
+    *  Exact path strictly displays urls that match exactly whereas path will include things that have the same URL path 
+        example = blahbalh.com/home vs blahblah.com/home/about
+    *   @___ minutes - useLocation() which is our first hook
+    *   @___ minutes - introduces Unit 19 Activity 23
+
+
+## 10/28  React State 6/
+[React Router](1)
+
+ minute session
+    covers:
+    *  Review Unit 19 Activity 21 mini-project
+    *  Builds a random dog generator puppy finder/connection
+    *  @___ minutes goes over
+    
+
+## 10/28  React State 7/
+[React Router](1)
+
+ minute session
+    covers:
+    *  Pup Finder Search 
+    *  Using map to iterate through breeds and render in a search
+    *   If no id, accept index in .map as secondary paramter in the funciton to use for keys.
+
+## 10/29  React State 1/
+[React Router](1)
+
+ minute session
+    covers:
+    *  Reviewing yesterday's material by building a shopping app
+    *  3 things need for a form
+
+## 10/29  React State 2/
+[React Router](1)
+
+ minute session
+    covers:
+    *  Reviewing yesterday's material by building a shopping app
+    *  3 things need for a form
+        state, handleinput, form
+    *   handleInput updates state, check this by making sure you are seeing those values logged to state using react dev tools
+    *   handling form submi
+            event prevent default
+            props.history.location? instead of page.redirect
+            history is mutable
+        
+        onSubmit react state?
+        PUSH as a way to redirect pages 
+
+````javascript
+ // the form onSubmit calls the function for the PUSH
+ <form onSubmit={this.handleSubmit}>
+ 
+ handleSubmit = (event) => {
+      // prevent default
+      event.preventDefault();
+      this.props.history.push("/shop")
+  }
+
+````
+    *   @___ minutes explains functionality of push and its interaction with React history
+    *   Knowing what you are expecting to get back and adding a deftault value is import
+    *   Never commit the build folder, we ONLY need it for production
+        * We want to run it every single time we go to production
+        * git add . automatically ignores build folder?
+    *   CHECK OUT THIS APP to http://cors-anywhere.herokuapp.com
+
+
+ ## 10/29  React State 3/
+[React Hooks](1)
+
+ minute session
+    covers:
+    *   We render things using set state
+    *   You cant pass state to a sibling
+
+ ## 10/29  React State 4/
+[React Hooks](1)
+
+ minute session
+    covers:
+    *   Discussing what we did to review
+    *   Using class components with set using setState()
+    *   We are going to be going over hooks
+    *   Props are considered immutable and you can only change props from the parent component
+    *   Rather than calling a state on a class, we use an in-state hook
+        * React 16.8, facebook recommends using functional whenever possible
+            two hooks we will use today
+                useState - allows you to use state in a functional component
+                useEffect - replaces lifecycle methods like componentDidMount * componentDidUpdate
+                        * can mimic all life cycle methods
+        *   Two rules for hooks
+                1.  Do not call Hooks from within loops, conditionals or nested functions
+                2.  Do not call Hooks from within regular javascript functions
+    *   @____ Unit 20 Activity 1
+            * import {useState} from "react"
+            * const [] = useState()  << basic structure of useState hook
+            * state is an object
+````javascript
+            const [developerState, setDeveloperState] = useState({})
+            const [banana, setBanana] = usestate({})
+
+            // spread operator brings in other default values from the object and only updates targetted attribute.
+            onClick={() => setDeveloperState({...developerState, mood: "lazy"})}
+
+````
+            *   example of using useState({}) hook 
+        
+ ## 10/29  React State 5/
+[Practice with Hooks](1)
+
+ minute session
+    covers:
+    *   Unit 20 Activity 2
+    *   Starts by hardcoding a useState hook
+        *   set state invidually or with an object
+````javascript 
+  const [state, setState] = useState({
+    name: "Dude",
+    password: "password"
+  })
+````
+    *   When using Hooks you don't have to have values on your form inputs
+````javascript
+            
+            <input className="form-control" type="text" placeholder="Username"          name="username" 
+              onChange={(e) => {setState({...state, name: e.target.value})}}/>
+
+            
+            <input   className="form-control" type="password" placeholder="Password"
+                name="password"value={state.password}
+                onChange={(e) =>{setState({...state, password: e.target.value})}}
+              />
+````
+    *   useEffect is similar componentDidMount
+    *   @____ introduces Unit 20 Activity 3
+    *   useEffect takes two arguments;
+            callback function
+            dependencies
+                *   an empty dependency array mimics componentDidMount
+                *   when you add values it makes it mimic componentDidUpdate
+    *   @___ minutes introduces Unit 20 Activity 4
+
+ ## 10/29  React State 6/
+[Practice with Hooks](1)
+
+ minute session
+    covers:
+    *   Review Unit 20 Activity 4
+    *   useEffect() 
+            * empty dependency array is equivalent to componentDidMount()
+            * functions have to be defined with const
+    *   Custom Hooks  
+            *   are just wrappers around built in hooks
+            *   have a goal of writing atleast ONE before end of semester
+            *   put them inside of a Hooks folder, always call the file and the function starting with the word "use"_______
+    *   @___ minutes introduces Unit 20 Activity 6
+
+ ## 10/29  React State 7/
+[Creating Custom Hooks](1)
+
+ minute session
+    covers:
+    *   Creating custom hooks
+
+ ## 10/30  React Hooks & Context Api 1/
+[Creating Custom Hooks](1)
+
+ minute session
+    covers:
+    *   Creating custom hooks
+    *   Stop using COMPONENTS
+    *   Creates a form using a function with a useState hook
+    *   uses <form onSubmit> to handle the click and the submit
+    *   talks about using alt tags & hardening code
+
+ ## 10/30  React Hooks & Context Api 2/
+[Third Party Hooks](https://zoom.us/rec/play/yLC2k5AJIWWkx8yUv4CFfgmSSZdtbxbXwM-Ewb76qJUUYCPS3Qy5nztqENJ2aBHL5SWrgn06oudDq6Cd.ef-CztzjfzqNNFdj?startTime=1604066568000&_x_zm_rtaid=MQnVBecITSKVMnG7JgGwwA.1604768351838.89a626bf5979890984f71b0f6eeac66a&_x_zm_rhtaid=231)
+
+ minute session
+    covers:
+    *   Unit 20 Activity 07
+    *   Third party documentation for custom hooks
+
+ ## 10/30  React Hooks & Context Api 3/
+[Intro to Prop Drilling](https://zoom.us/rec/play/-A790cdhdzaD0YT55yIs6W6o6Ld7DLKBQUhTgjoOyfblz46uiOGZigMGYzhZ_-ygG2MCeiRYJg5vMjyA.l1DRY0PVD8VUCd-E?startTime=1604068246000&_x_zm_rtaid=MQnVBecITSKVMnG7JgGwwA.1604768351838.89a626bf5979890984f71b0f6eeac66a&_x_zm_rhtaid=231)
+
+ minute session
+    covers:
+    *   Unit 20 Activity 8
+    *   Prop drilling exercise as an introduction to Context Api
+    *   Using spread operator {...users} all of the keys of an object will be added as props
+
+ ## 10/30  React Hooks & Context Api 4/
+[Intro to Prop Drilling](1)
+
+ minute session
+    covers:
+    *   Unit 20 Activity 8
+    *   Using spread operator {...users} all of the keys of an object will be added as props
+    *   Prop drilling is inefficient and prone to breaking
+    *   @___ minutes talks about Redux
+            REDUX solves prop drilling, but may make things on a smaller level overly complicated
+            topic of Container versus Presentational components
+
+    *   CONTEXT API, resolves prop drilling
+        @____ visualization of Context API
+        Wrap all of your content in a single "provider" and you store Data there
+        * technique of passing data directly into componenets is DEPENDENCY INJECTION
+        Adding stateful logic to a componenet creates a dependent relationship to another component. This is known as coupling. 
+            1   Tightly couipled componenets should be avoided when possible
+            2   Coupling increases the dependencies necessary for a componenet
+            3   Coupling reduces the reusability of componenets
+        State Management
+            Passing props, Context API(sledgehammer) and Redux(jackhammer)
+    *   Employer Ready Candidates can write React, Employer Competitive know about new features and uses
+    *   Demos Unit 20 Activity 9 - example of Context Api
+        HAS A README WITH NOTES to reference
+        GOOD REFERENCE OF CONTEXT API
+
+## Setup the Provider
+            1.  Call React.createContext() with default context (typically an object)
+````javascript
+                const DeveloperContext = React.createContext({
+                name: "",
+                mood: "",
+                lifeLongLearner: false,
+                excitementLevel: 0
+                });
+````
+            2.  Wrap my components in Context.Provider (after importing)
+````javascript
+                <DeveloperContext.Provider value={developerState}>
+                    <Nav />
+                    <DeveloperInfo />
+                    <MoodBtns changeMood={changeMood} />
+                </DeveloperContext.Provider>
+````
+            3. Pass an object in to the value prop on the Provider
+
+
+## Setup the Consumer
+            1. Import the context
+            2. Pass it into useContext hook
+            3. Destructure the properties off the context.
+    *   Introduces Unit 20 Activity 10
+
+
+ ## 10/30  React Hooks & Context Api 5/
+[Intro to Prop Drilling](1)
+
+ minute session
+    covers:
+    *   Review Unit 20 Activity 10
+    *   Works through using Context API in a simple example
+        
+        What areas is this most effective in?
+        *   Most common usage is for a user object
+            loggin in, storing the token and then authorizing the user
+            set their authorization in a global state
+        *   User settings
+    *   
+
+
+ ## 10/30  React Hooks & Context Api 6/
+[Changing value from a context api value](1)
+
+ minute session
+    covers:
+        *   Review Unit 20 Act 11
+        *   You can store a function in on a useState/Hook
+        *   You have to use a spread operator to not overwrite properties 
+        *   To bring in an onclick handler anywhere you want.
+###   REVIEW THIS VIDEO
+    *   Ask Yourself
+        *   What could we do next, how could we refractor this?
+        *   Introduces Unit 20 Act 12
+
+
+ ## 10/30  React Hooks & Context Api 7/
+[Changing value from a context api value](1)
+
+ minute session
+    covers:
+    *   Review Unit 20 Act 13
+    *   We use context API to save ourselves from using multiple ajax calls as we are just relying on pulling information from our DOM that we have stored
+    * DEPENDENCY INJECTION, injecting dependencies where they are necessary
+    *   Introduces Unit 20 Activity 13
+        *   multiple contexts
+        *   App wide global values typically go in the app level
+        *   You can't have multiple contexts on the same level they must nested if they are at the same level, that does not mean they are interrelated
+    *   Introduces Unit 20 Activity 14
+
+ ## 10/30  React Hooks & Context Api 8/
+[Changing value from a context api value](1)
+
+ minute session
+    covers:
+    *   Review Unit 20 Act 14
+    *   How to use multiple context apis 
+
+ ## 10/30  React Hooks & Context Api 9/
+[Changing value from a context api value](1)
+
+ minute session
+    covers:
+    *   Creating an Office API display character App
+    *   Review This
+    *   Using a route with a character id to display a page of that character's data
+    *   useParams Hook, lets you use the parameters in your URL to make API calls, display 
+```` javascript
+        const {characterId} = useParams()
+````
+
+ ## 11/2  State Management with the Store **/
+[Review Unit 21 Activity 02](1)
+
+ minute session
+    covers:
+    *   Creating an Office API display character App
+    *   Review This
+
+ ## 11/2  State Management with the Store **/
+[Review Unit 21 Activity 03](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 21 Activity 03
+    *   Making an API call and recieving information from your database and use useState to setState of your database contents.
+    *   Introduces Unit 21 Activity 04
+
+ ## 11/2  State Management with the Store **/
+[Review Unit 21 Activity 04](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 21 Activity 04
+    *   When using an object with useState function you have to use spread operator ...
+    *   Updates a form field input using useState to add a new book to a database "live"
+    *   Clears a form and loads a database.
+    *   @____ introduces Unit 21 Activity 05 for creating an individual book page based on book ID.
+
+ ## 11/2  State Management with the Store **/
+[Review Unit 21 Activity 05](1)
+
+ minute session
+    covers:
+    *   Walkthrough Unit 21 Activity 05
+    *   No path = 404 path when using Switch in React with react-router-dom
+    *   react-router-dom passes in its own props into the pages it is rendering.
+    *   useParams to deconstruct when you are pulling in a search
+
+ ## 11/2  State Management with the Store **/
+[Connects a project to gh-pages](1)
+
+ minute session
+    covers:
+    *   Deploying an applicationto github pages with react-router-dom
+    *   
+
+## 11/3  MERN 1/
+[Book API User Auth](1)
+
+ minute session
+    covers:
+    *   Book App with full crud
+
+## 11/3  MERN 2/
+[Book API User Auth](1)
+
+ minute session
+    covers:
+    *   Unit 21 Activity 6
+
+## 11/3  MERN 3/
+[Final Project Overview](1)
+
+ minute session
+    covers:
+    *   Final Project Overview
+
+## 11/3  MERN 4/
+[Final Project Overview](https://zoom.us/rec/play/deuzWjthPjAgpTby3YW73Co_l0eGMnJoFvi9KQbPCudFdcApFhaiE-OpKYLwM1yH6qIzojSsLgDKtDY4.QmLWKeDRbKTe92--?startTime=1604431832000&_x_zm_rtaid=sJqqLPSZRKSpIogltmHT_w.1604714406997.227cfc538965e15c67fc0f83d9de5b11&_x_zm_rhtaid=368)
+
+ minute session
+    covers:
+    *   Full Crud for Book Project
+    *   We use hooks to add state to functional components
+    *   @ 17 minutes
+            Using onChange inside of a form and setting that change with e.target.value
+    *   @___ uses a ternary to display books without author full names.
+    *   How are we going to display an author or update a book with an author, when it's already been created.
+
+
+## 11/4  MERN 1/
+[Final Project Overview](https://zoom.us/rec/play/tklhwmFaGvXNb_1d1EqtgVFu3XFK7G4JR35NcoIgbSACwXpxXNkarIyKKyfgXd3R5_KQptmHEZgVeIU.E_u2Iw0JlGc6krwN?startTime=1604499426000&_x_zm_rtaid=sJqqLPSZRKSpIogltmHT_w.1604714406997.227cfc538965e15c67fc0f83d9de5b11&_x_zm_rhtaid=368)
+
+ minute session
+    covers:
+    *   Reviewing Book Project with a drop down to select authors
+    *   @___ minutes useEffect on page load to query the API
+    *   REVIEW THIS FOR SELECT/DROP DOWN options in React
+    *   @ 17 minutes useHistory to direct a user to a newly created individual book 
+            React-Router-Dom... history push, useHistory... history.push("/")
+            is how we navigate programmatically to new pages
+    *   @___ minutes useParams to access id of book from URL by destructuring the URL 
+    *   @___ minutes uses findOne
+
+## 11/4  MERN 2/
+[Javascript Review](1)
+
+ minute session
+    covers:
+    *   Reviewing javascript
+    *   Imports React Bootstrap to use a pre-built modal
+    *   Babbel and Webpack allow us to use import instead of require in bootstrap files
+
+## 11/5  Project Day 1/
+[Javascript Review](1)
+
+ minute session
+    covers:
+    *   Creating alert modals
+
+## 11/5  Project Day 1 1/
+[Algorithm](1)
+
+ minute session
+    covers:
+    *   Algorithm practice
+    *   Big O Notation with visualization 
+        O(n)
+            Big O Notation assumes the list is sorted
+            If we know are data is sorted than a binary search is better
+            If asked to do something with an array
+                * Is the array sorted?
+            Asks a word problem; 100 stories, 100 windows where will the egg break?
+            IF you have two eggs you use a binary search, by cutting the number of floors in half for every attempt
+        O(lgn)
+            @__ minutes visualization 
+        
+    Insertion Sort - small array and unique elements
+    Quick Sort
+
+    https://visualgo.net/bn/sorting
+
+
+## 11/6  Project Day 2/
+[Javascript Review](1)
+
+ minute session
+    covers:
+    *   User Authentication with the book app
+    **  Every field you have decreases signup by 1/3
+    *   Storing a token and to have access to a user's data.
+            store tokens in React state and not local storage or cookies
+    *   Uses AuthContext to "hold onto" a json web token 
+    *   login and signup are both posts
+
+## 11/9  Project Day 3/
+[How do we hold onto JWTs?](1)
+
+ minute session
+    covers:
+    *   JWTs and user authorization
+    *   Setting access headers globally!!!
+    *   Uses "useEffect" any time the JWT changes, if the JWT exists
+    *   Uses a utils to update the JWT
+
+    *   protected routes with JWTs and routers
+    *   using a component that renders a protected route
+    *   useHistory to navigate promgrammatically
+
+    *   set & get jwts in local storage
+        *   on refresh being kicked out of your page because of the local of setting & getting local storage jwts
+        *   work around for this issue using history.goBack()
+
+## 11/9  Project Day 3/
+[Big O Notation and Advanced Data Structures](2)
+
+ minute session
+    covers:
+    *   Big O Notation Visualization
+
+## 11/9  Project Day 3/
+[MAP](3)
+
+ minute session
+    covers:
+    *   const mapOfNUmbers = new Map()
+    what is the bigO notation for Unit 20 Activity 7, technically 2n
+
+## 11/9  Project Day 3/
+[SET](3)
+
+ minute session
+    covers:
+    *   set, a value can only occur once
+
+## 11/10  Project Day 3/
+[useRef](3)
+
+ minute session
+    covers:
+    *   Import useRef from React
+    *   use useEffect to call on useRef by displaying when a modal displays
+    *   changes modal to include inputRef instead of ref to get around asynchronicity issues

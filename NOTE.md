@@ -1627,6 +1627,36 @@ export default UserItem;
             array, bool, func, number, object, string, symbol
 
 
+### Conditional Rendering
+    * Using ternary operators
+
+````javascript
+              {this.state.result.Error && "An error occurred."}
+              {!this.state.result.Error && (
+                <MovieDetail
+                  title={this.state.result.Title}
+                  src={this.state.result.Poster}
+                  director={this.state.result.Director}
+                  genre={this.state.result.Genre}
+                  released={this.state.result.Released}
+                />
+              )}
+​
+// Ternary operator to accomplish the same results
+              {this.state.result.Error ? (
+                "An error ocurred."
+              ) : (
+                <MovieDetail
+                  title={this.state.result.Title}
+                  src={this.state.result.Poster}
+                  director={this.state.result.Director}
+                  genre={this.state.result.Genre}
+                  released={this.state.result.Released}
+                />
+              )}
+````
+
+
 ###  React.Component subclasses:
         React component class or React component type
             *  component takes in parameters called "props" and returns a hierarchy of views to display via the render method.
@@ -1647,6 +1677,10 @@ export default UserItem;
         * We can run it without installing it using NPX
         * Upon installing comes with React and React Dom which is for manipulating web based applications, not native applications.
         * React-script allows you to have webpacks, service workers, etc. work without having to set it up yourself, by running eject you have 
+## React Router
+    React Router manipulates the dom
+
+    By not using exact path we are able to display information on the same true, when true 
 
 ## NPM packages
 
