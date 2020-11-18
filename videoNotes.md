@@ -1198,6 +1198,7 @@ Here is a list of helpful links regarding videos on BCS
             1. Import the context
             2. Pass it into useContext hook
             3. Destructure the properties off the context.
+            
     *   Introduces Unit 20 Activity 10
 
 
@@ -1460,3 +1461,58 @@ Here is a list of helpful links regarding videos on BCS
     *   Import useRef from React
     *   use useEffect to call on useRef by displaying when a modal displays
     *   changes modal to include inputRef instead of ref to get around asynchronicity issues
+
+
+## 11/13  Project Day 1/
+[Interview Questions]()
+    TAKE NOTES
+
+ minute session
+    covers:
+
+    *   TELL ME ABOUT YOURSELF
+        *   What's the story? concise, answers these three things
+
+        *   Where you're coming from
+
+        *   Where you're going
+
+        *   Why the change
+
+    *   TELL ME ABOUT A TIME YOU HAD A DISAGREEMENT with someone and how you resolved it
+        *   What's most important is how you resolved it***
+
+    *   If I wanted to install a toilet on my roof, how would I do it?
+
+        * Left field questions to throw you off your game
+    
+            *   What is your go to for figuring out how to do things you haven't encountered before
+                
+                *   experts, resources, documentation, your process for resolving problems
+
+                *   testing mechanism
+
+            *   What the hell are cubernettis?
+
+    *   What's the difference between a Map and a Set?
+            
+        *   NEVER straight up say, I don't know
+            *   Reframe that you are interested and you care
+
+        *   Map is a glorifed object with key value pairs versus Set contains unique values
+
+    *   What are some Life Cycle Methods and when do you use them?
+
+        * componentDidMount(), conmponentDidUpdate(), componentWillUnMount()
+        * when a component renders that when a useEffect hook fires
+        * componentDidCatch() - error boundaries 
+
+    *   What is your weakness in your skillset or your personality
+
+        *   The trick is to make yourself look as bad as possible while still being hireable.
+
+    *   What is express?
+    
+        *   Node.js web application framework that helps us develop routes; here are some examples of how I used express
+
+    *   Tell a story
