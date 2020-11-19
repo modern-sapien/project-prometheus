@@ -1,0 +1,17 @@
+body {
+ /* what happens if we remove this padding and margin? */
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    height: 50px;
+    box-shadow: 1px black solid;
+    background: darkgrey;
+    color: whitesmoke;
+    margin-top: 0px;
+    padding-top: 0px;
+     /* what is rem? It's not a band from Athens */
+    font-size: 1.5rem;
+
+}
