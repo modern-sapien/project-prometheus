@@ -6,12 +6,22 @@ body {
 
 nav {
     height: 50px;
-    box-shadow: 1px black solid;
+    /* what are the properties of box shadow? Let's adjust them and find out together */
+    box-shadow: .5px 2px 10px black;
+    /* position sticky, navbar necessity, why? */
+    position: sticky;
+    z-index: 100;
     background: darkgrey;
     color: whitesmoke;
     margin-top: 0px;
     padding-top: 0px;
      /* what is rem? It's not a band from Athens */
     font-size: 1.5rem;
+}
 
+.row {
+    height: max-content;
+}
+.col {
+    width: 100%;
 }

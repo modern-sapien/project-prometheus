@@ -1268,16 +1268,51 @@ Here is a list of helpful links regarding videos on BCS
         const {characterId} = useParams()
 ````
 
- ## 11/2  State Management with the Store **/
-[Review Unit 21 Activity 02](1)
+ ## 11/2  State Management with the Store 1/9
+[Context API, morning review](https://zoom.us/rec/play/E214IGPKRaltJwv75dr1PJO4P8V27_eyQKUKi4VE75x5pmTQ0KZiouz6PwXF4MF89jC46qZ0RfxeiyPD.ymsLco3sNfiNYZWJ?startTime=1604326803000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
 
- minute session
+35 minute session
     covers:
-    *   Creating an Office API display character App
+    *   State Management
+    *   Redux is not appropriate for all state management because it is more necessary for large scale projects when Context API or props would be more appropriate.
+    *   @ 11 minutes what are the two things needed to use Context API?
+            * creates a UserContext provider at the app level to mock login process
+    *   @ 30 minutes sets up the consumer
+            * creates User Context consumer at the Login level to mock an API call
+    *   @ 32 minutes bring in the Context API to display the username on a welcome page
+
+ ## 11/2  State Management with the Store 2/9
+[Context API & research activity](https://zoom.us/rec/play/AkCWerQYUZudyU7BvgwSkk9IeWV8IqaTpA8prjQEHvLZJGMX7vr6bfa-IaZgBwH4P_ShlsFVulkAm6xi.novFdwI3GV9IfQrM?startTime=1604329325000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
+
+10 minute session
+    covers:
+    *   covers Context API briefly
+    *   asks class to research useReducer and useRef
+    *   creating an Office API display character App
     *   Review This
 
- ## 11/2  State Management with the Store **/
-[Review Unit 21 Activity 03](1)
+ ## 11/2  State Management with the Store 3/9
+[What is useReducer, useRef?](https://zoom.us/rec/play/-D6dFPjwokvkxyVQUE6Fc1RLR7xGQcg5AbQ-fPSH88vgEOqfWnoFVzRDI5qsYWO8dw8D9KXuHncqRw1W.kjygHjg0d5RwpjlT?startTime=1604330858000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
+
+    15 minute session
+    covers:
+    *   What is useReducer?
+        *   useReducer to take application state changes to be spread out throughout 
+    *   What is useRef?
+        *   Assigns a reference and then pulls out the input directly from the DOM
+        Unit 20 Activity 18
+    *   Interview questions
+        *   State Management
+        *   Props
+        *   Context API
+        *   Redux
+    *   @   13 minutes goes over Unit 20 Activity 22
+        *   This mini project has a client folder
+        *   begin with creating a github repository
+
+
+ ## 11/2  State Management with the Store 3/9
+[What is useReducer, useRef?](https://zoom.us/rec/play/-D6dFPjwokvkxyVQUE6Fc1RLR7xGQcg5AbQ-fPSH88vgEOqfWnoFVzRDI5qsYWO8dw8D9KXuHncqRw1W.kjygHjg0d5RwpjlT?startTime=1604330858000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
 
  minute session
     covers:

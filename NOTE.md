@@ -1670,17 +1670,125 @@ export default UserItem;
         "Where do you want to render?"
 
     State and Lifecycle
-        * Hooks allow us to have functional components
-        * State is an object like props extends from being a component.
+        *   State management becomes an issue when you are building more and more complex projects, passing props in a complex system is arduous, wet, hard and inefficient.
+        *   Hooks allow us to have functional components
+        *   State is an object like props extends from being a component.
 
     NPM versus NPX
         * We can run it without installing it using NPX
         * Upon installing comes with React and React Dom which is for manipulating web based applications, not native applications.
         * React-script allows you to have webpacks, service workers, etc. work without having to set it up yourself, by running eject you have 
+
+## React - CONTEXT API
+    Context API allows us to access information anywhere in our apps as long as it is wrapped in a provider. This gets us out of needlessly prop drilling through every component and allows us to be more flexible and efficient in our approach.
+
+    As long as your component is a child of the provider, you can access this information anywhere.
+
+    To set up and use Context API within a project you have to follow the steps listed in the example below. 
+
+    Set up a Provider and Consumer. You may have multiple consumers.
+###   Provider
+        1. call React.createContext() with default context (typically an object)
+
+````javascript
+    // Provider
+    const UserContext = React.createContext({
+        token: "",
+        emailAddress: "",
+        setToken: () => {},
+        setEmailAddress: () => {}
+    })
+````
+
+        2. Wrap componenets in Context.Provider (after importing)
+
+````javascript
+    import React, {useState} from "react"
+````
+        3. Pass an object in to the value prop on the Provider
+
+````javascript
+    function App() {
+        const [token, setToken] = useState("");
+        const [emailAddress, setEmailAddress] = useState("");
+
+        return (
+            <UserContext.Provider
+            value = {{ token, emailAddress, setToken, setEmailAddress}}>
+            <div className="App">
+            <h1>Hello World </h1>
+            </UserContext.Provider>
+        )
+    }
+````
+###   Consumer
+
+        1. Import the context
+
+````javascript
+import React, {useContext, useState} from "react"
+````
+
+        2. Pass it into useContext hook
+
+````javascript
+    const [emailAddress, setEmailAddress] = useState("")
+    const [password, setPassword] = use State("")
+
+    const user = useContext(UserContext)
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const data = {
+            token: "asdflkjasldfjlasd",
+            fullName: "Jonathan Watson"
+        };
+        user.setFullName(data.fullName)
+        user.setToken(data.token)
+    }
+
+````
+
+### React Hooks
+    useReducer()
+        *   accepts a reducer function with the application initial state, returns the current application state then dispatches a function.
+        *   we don't set anything, we dispatch actions
+        *   for the most part anything you can do with useReducer you can do with Context API
+        *   references Unit 20 Activity 16
+````javascript
+        const [count, dispatch] = useReducer((state, action) => {
+            if (action === "add")   {
+            return state+1
+            } 
+            else if (action === "subtract") {
+            return state-1
+            }
+            else {
+                return state
+            }
+        }, 0)
+
+        return (
+            <button onClick={() => dispatch("add")}> ADD </button>
+            <button onClick={() => dispatch("subtract")}> SUBTRACT </button>
+        )
+````
+        
+    useRef()
+        *   to persist values between renders
+        *   assigns a reference to a specific element and then focuses in on that element
+        *   **focus control**
+
+
 ## React Router
     React Router manipulates the dom
 
     By not using exact path we are able to display information on the same true, when true 
+
+## React & Full Stack
+    When developing 
+    React lives in a client folder
 
 ## NPM packages
 
