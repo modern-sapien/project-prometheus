@@ -3,7 +3,7 @@
 const firstName = "Marcus";
 const lastName =  "Aurelius"
 const age = 36
-const str = "Hello there I hope you are doing groovy"
+const str = "         Hello there I hope you are doing groovy         "
 const tags = "cool,funny,hilarious,intelligent,cheese"
 
 let val;
@@ -61,5 +61,8 @@ val = str. replace("hope", "nope")
 
 // includes()
 val = str.includes("hello")
+
+// trim()
+val = str.trim()
 
 console.log(val)
