@@ -26,46 +26,52 @@ numbers[2] = 100
 
 // Mutate Arrays
 // Add on to end
-// numbers.push(245)
+numbers.push(245)
 
-// // Add on to front
-// numbers.unshift(4)
+// Add on to front
+numbers.unshift(4)
 
-// // Take off from end
-// numbers.pop();
+// Take off from end
+numbers.pop();
 
-// // Take off from front
-// numbers.shift()
+// Take off from front
+numbers.shift()
 
-// // Splice values
-// numbers.splice(1, 3)
+// Splice values
+numbers.splice(1, 3)
 
-// // Reverse
-// numbers.reverse()
+// Reverse
+numbers.reverse()
 
-// // Concatenate array
-// val = numbers.indexOf(36)
+// Finding the index based on a given value
+val = numbers.indexOf(36)
+
+// Concat // joins the two arrays together
+val = fruit.concat(numbers)
 
 // Sorting arrays
-// val = fruit.sort()
-// val = numbers.sort()
+val = fruit.sort()
+val = numbers.sort()
 
-// // Use the "compare function"
-// val = numbers.sort(function(x,y)    {
-//     return x- y
-// })
+// Use the "compare function"
+val = numbers.sort(function(x,y)    {
+    return x- y
+})
 
-// // Reverse sort
-// val = numbers.sort(function(x,y)    {
-//     return y- x
-// })
+// Reverse sort
+val = numbers.sort(function(x,y)    {
+    return y- x
+})
 
 // Find 
 function under50(num)   {
     return num < 50
 }
-
 val = numbers.find(under50)
+
+// Join lets you make an array into a string and choose the separator
+val = numbers.join(" ")
+
 
 console.log(numbers)
 console.log(val)
