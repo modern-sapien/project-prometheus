@@ -19,21 +19,23 @@ const name = localStorage.getItem("name")
 const age = localStorage.getItem("age")
 
 // CLEAR LOCAL STORAGE
-localStorage.clear()
+// localStorage.clear()
 
 document.querySelector("form").addEventListener("submit", function(e){
-    
+    // Target the input
     const task = document.getElementById("task").value;
+    // Declare the array we will be using
     let tasks;
-
+    // Check if local storage has anything in it
     if(localStorage.getItem("tasks") === null)  {
         tasks = [];
     } else {
+    // If yes, then parse it from JSON and return it to the array
         tasks = JSON.parse(localStorage.getItem("tasks"));
     }
-
+    // Add the current task to the array
     tasks.push(task);
-   
+    // Stringify the array and set into local storage
     localStorage.setItem('tasks', JSON.stringify(tasks))
 
     console.log(task)
@@ -41,4 +43,9 @@ document.querySelector("form").addEventListener("submit", function(e){
     e.preventDefault()
 })
 
-console.log(name, age)
+// We need to get the item from local storage and parse it so that we can use it as an array
+const tasks = JSON.parse(localStorage.getItem("tasks"))
+
+tasks.forEach(function(task)    {
+    console.log(task)
+})
