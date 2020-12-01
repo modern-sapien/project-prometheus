@@ -46,3 +46,13 @@ What can you build with PHP?
     *   membership websites
     *   search engines
     *   backend APIs
+
+How to get started?
+    *   PHP runs on Windows, Mac and Linux
+        If you search online you will easily find XAMPP (I'm running on a windows machine)
+        *   When downloading only install MySql & Apache (Perl if you have a reason to)
+        *   Do not immediately open the dashboard when prompted after the install 
+        *   Locate XAMPP wherever your main drive is
+        *   Run xampp-control.exe as an administrator and CLICK the X on MySQl & Apache
+        *   Press start on both of them
+        *   Navigate to localhost in a web browser, and you're in business (kind of)
