@@ -1292,7 +1292,7 @@ Here is a list of helpful links regarding videos on BCS
     *   Review This
 
  ## 11/2  State Management with the Store 3/9
-[What is useReducer, useRef?](https://zoom.us/rec/play/-D6dFPjwokvkxyVQUE6Fc1RLR7xGQcg5AbQ-fPSH88vgEOqfWnoFVzRDI5qsYWO8dw8D9KXuHncqRw1W.kjygHjg0d5RwpjlT?startTime=1604330858000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
+[What is useReducer, useRef?](https://zoom.us/rec/play/H3D0-CRBC8WdhmA6jQcfn4HP82cmH7HbV0pnML6UhXksR50k8QsG4UqT5rC0h-ceN7CqISRVas7XIGL-.8_kssWoHKBLwi1Xs?startTime=1604330858000&_x_zm_rtaid=NfgJ8SQdQgeQVEmk-hu_zw.1606240760147.b32c42bd035faa1950d3c41fe95e789d&_x_zm_rhtaid=302)
 
     15 minute session
     covers:
@@ -1314,7 +1314,7 @@ Here is a list of helpful links regarding videos on BCS
  ## 11/2  State Management with the Store 3/9
 [What is useReducer, useRef?](https://zoom.us/rec/play/-D6dFPjwokvkxyVQUE6Fc1RLR7xGQcg5AbQ-fPSH88vgEOqfWnoFVzRDI5qsYWO8dw8D9KXuHncqRw1W.kjygHjg0d5RwpjlT?startTime=1604330858000&_x_zm_rtaid=sm-CE4RzQF2hdoFnMUUFUg.1605802151489.66e4f95a98ad306b8bea5389474cc088&_x_zm_rhtaid=664)
 
- minute session
+15 minute session
     covers:
     *   Walkthrough Unit 21 Activity 03
     *   Making an API call and recieving information from your database and use useState to setState of your database contents.
