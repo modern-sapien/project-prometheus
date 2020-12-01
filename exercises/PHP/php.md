@@ -96,3 +96,6 @@ How to get started?
 ````php
             $cfg['Servers'][$i]['password'] = '';
 ````
+
+*   Now we are ready to begin
+        * The exercises while living in this PHP folder will need to be imported into your htdocs folder within XAMPP as that it what is running your mysql & apache server and your PHP will attach to. See you in the exercises!
