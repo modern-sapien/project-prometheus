@@ -11,7 +11,7 @@ test("work through basics of playwright capabilities in uitestingplayground", as
 });
 
 // Codegen created an event listener for dialog popup closure
-test("test", async ({ page }) => {
+test("handling popup closure", async ({ page }) => {
   await page.goto("http://uitestingplayground.com/");
   await page.getByRole("link", { name: "Class Attribute" }).click();
   page.once("dialog", (dialog) => {
@@ -32,11 +32,17 @@ test("testing hidden layers", async ({ page }) => {
 });
 
 // test passes by waiting for page load, no handling necessary
-test.only("page load delay", async ({ page }) => {
+test("page load delay", async ({ page }) => {
   await page.goto("http://uitestingplayground.com/");
   await page.getByRole("link", { name: "Load Delay" }).click();
   await page.getByRole("button", { name: "Button" }).click();
 });
 
+test.only("ajax delayed dynamic response", async ({ page }) => {
+  await page.goto("http://uitestingplayground.com/");
+  await page.getByRole("link", { name: "AJAX data" }).click();
+  await page.locator("id=ajaxButton").click();
 
-
+  const ajaxDataReturn = page.locator("class=bg-success");
+  await expect(ajaxDataReturn).toBeVisible;
+});
