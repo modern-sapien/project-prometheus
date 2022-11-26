@@ -38,11 +38,25 @@ test("page load delay", async ({ page }) => {
   await page.getByRole("button", { name: "Button" }).click();
 });
 
-test.only("ajax delayed dynamic response", async ({ page }) => {
+test("ajax delayed dynamic response", async ({ page }) => {
   await page.goto("http://uitestingplayground.com/");
   await page.getByRole("link", { name: "AJAX data" }).click();
   await page.locator("id=ajaxButton").click();
 
   const ajaxDataReturn = page.locator("class=bg-success");
-  await expect(ajaxDataReturn).toBeVisible;
+  expect(ajaxDataReturn).toBeVisible;
+});
+
+test.only("untrustworthy click", async ({ page }) => {
+  await page.goto("http://uitestingplayground.com/");
+  await page.getByRole("link", { name: "Click" }).click();
+  await page.getByRole("button", { name: "Button That Ignores DOM Click Event" }).click();
+
+  const successButtonStatus = page.getByRole("button", {
+    name: "Button That Ignores DOM Click Event",
+  });
+
+  await expect(successButtonStatus).toHaveAttribute("class", "btn btn-success");
+
+  await successButtonStatus.screenshot({ path: "screenshot.png" });
 });
