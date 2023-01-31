@@ -1,0 +1,26 @@
+{
+  "name": "cypressplayground",
+  "version": "1.0.0",
+  "description": "a place to test cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test cypress",
+    "test-run-specification": "npx cypress run -s 'cypress/e2e/1-getting-started/*,cypress/e2e/3-JSONplaceholder-tests/*s'",
+    "test-record-run-cloud-tag": "cypress run 'cypress/e2e/2-advanced-examples/*' --record --tag 'staging'",
+    "test-run-folder-cypress/grep": "npx cypress run -s 'cypress/e2e/3-*/*' --env grep='JSON'",
+    "test-run-cypress/grep": "$ npx cypress run --env grep='JSON'" 
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "automation"
+  ],
+  "author": "jonathan c",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  },
+  "dependencies": {
+    "@cypress/grep": "^3.1.0"
+  }
+}

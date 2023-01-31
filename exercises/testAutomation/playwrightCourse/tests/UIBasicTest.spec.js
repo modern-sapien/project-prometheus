@@ -1,40 +1,108 @@
-const { test, expect } = require("@playwright/test");
+// const { test, expect } = require("@playwright/test");
 
-// browser information is passed from config file
-test("browser context playwright test", async function ({ browser }) {
-  // creating a new or fresh context when choosing a particular browser if not delcaring
-  const context = await browser.newContext();
-  const page = await context.newPage();
+// test.only("page playwright test", async function ({ page }) {
+//   await page.goto("https://jsonplaceholder.typicode.com/");
 
-  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
-  // targeting id selector & downloaded selectorshub
-  await page.locator("#username").type("rahulshetty");
-  await page.locator("[type='password']").type("learning");
-  await page.locator("#signInBtn").click();
+//   const [retoolPage] = await Promise.all([
+//     page.waitForEvent("popup"),
+//     page
+//       .locator('a[href = "https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode"]')
+//       .click(),
+//   ]);
+//   await expect(retoolPage).toHaveURL(/.*retool/);
+
+//   const [mockendPage] = await Promise.all([
+//     page.waitForEvent("popup"),
+//     page
+//       .locator("body > div:nth-child(2) > section:nth-child(2) > p:nth-child(4) > a:nth-child(1)")
+//       .click(),
+//   ]);
+//   await expect(mockendPage).toHaveURL(/.*mockend/);
+
+//   // const [megafamousPage] = await Promise.all([
+//   //   page.waitForEvent("popup"),
+//   //   page
+//   //     .locator("section")
+//   //     .filter({
+//   //       hasText: "Sponsors JSONPlaceholder is supported by the following companies and Sponsors on",
+//   //     })
+//   //     .getByRole("link")
+//   //     .nth(3)
+//   //     .click(),
+//   // ]);
+//   // await expect(megafamousPage).toHaveURL(/.*megafamous/);
+
+//   // page.locator('section', { has: page.locator('a[href = "https://mockend.com"]')}).click(),
+
+// });
+
+const { expect, test } = require("@playwright/test");
+
+test.describe("sponsor related testing", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto("https://jsonplaceholder.typicode.com/", {
+      waitUntil: "domcontentloaded",
+    });
+  });
+
+  test.only("all sponsors links have loaded, are navigable, sponsor pages load appropriately", async ({
+    page,
+  }) => {
+    // await page.goto("https://jsonplaceholder.typicode.com/");
+
+    const [retoolPage] = await Promise.all([
+      // https://playwright.dev/docs/api/class-page#page-event-popup
+      page.waitForEvent("popup"),
+      page
+        .locator('a[href = "https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode"]')
+        .isVisible(),
+
+      page
+        .locator('a[href = "https://tryretool.com/?utm_source=sponsor&utm_campaign=typicode"]')
+        .click(),
+    ]);
+    await expect(retoolPage).toHaveURL(/.*retool/);
+    // await retoolPage.close()
+
+    const [mockendPage] = await Promise.all([
+      page.waitForEvent("popup"),
+      //  https://playwright.dev/docs/selectors
+      // I highly recommend adopting data-test* attributes to create less brittle selectors as ids, classes & paths are prone
+      page
+        .locator("section")
+        .filter({
+          hasText:
+            "Sponsors JSONPlaceholder is supported by the following companies and Sponsors on",
+        })
+        .getByRole("link")
+        .nth(2)
+        .click(),
+    ]);
+    await expect(mockendPage).toHaveURL(/.*mockend/);
+    // await mockendPage.close()
+
+    const [megafamousPage] = await Promise.all([
+      page.waitForEvent("popup"),
+      page.locator('a[href="https://megafamous.com/buy-instagram-followers"]').isVisible(),
+      page.locator('a[href="https://megafamous.com/buy-instagram-followers"]').click(),
+    ]);
+    await expect(megafamousPage).toHaveURL(/.*megafamous/);
+    // await megafamousPage.close()
+  });
 });
 
-// login error message
-test.only("login error message appears on failure", async function ({ browser }) {
-  // creating a new or fresh context when choosing a particular browser if not delcaring
-  const context = await browser.newContext();
-  const page = await context.newPage();
-
-  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
-  await page.locator("[type='password']").type("learning");
-  await page.locator("#signInBtn").click();
-  // auto waits until matching element is displayed
-  // textContent() calls the text of the element to be displayed
-  console.log(await page.locator("[style*='block']").textContent());
-  await expect(page.locator("[style*='block']")).toContainText("Empty username/password.");
-});
-
-
-
-// using default parameters
-test("page playwright test", async function ({ page }) {
-  await page.goto("https://google.com");
-  // get title of page
-  console.log("this is a log of the title: " + (await page.title()));
-
-  await expect(page).toHaveTitle("Google");
+test.only("other test", async ({ page }) => {
+  await page.goto("https://jsonplaceholder.typicode.com/");
+  const [mockendPage] = await Promise.all([
+    page.waitForEvent("popup"),
+    page
+      .locator("section")
+      .filter({
+        hasText: "Sponsors JSONPlaceholder is supported by the following companies and Sponsors on",
+      })
+      .getByRole("link")
+      .nth(2)
+      .click(),
+  ]);
+  await expect(mockendPage).toHaveURL(/.*mockend/);
 });
